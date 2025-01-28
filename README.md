@@ -5,7 +5,7 @@
 	- [unittesting-espidf-pio-gtest]() (C++, Public): desc
 	- multisensor station
 	- arduino flight controller
-- ## Portfolio Hidden
+- ## Portfolio Private (Work)
 	- [loramesh]() (C++, Private): desc
 	- fish sensor
 	- OKR employee
