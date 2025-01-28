@@ -1,0 +1,49 @@
+- ## Portfolio Spotlight
+	- aquifera-waterbox (C++, Public): Official firmware of Aquifera Waterbox IoT Device used for colllecting water debit data [Created: 2021-01-30T03:55:51Z]
+	- LoRa-RHMesh (C++, Public): LoRa Mesh network experimental projects repository. Developed using the RadioHead library on an ESP32 attached to a RFM95 LoRa Chip [Created: 2020-03-26T04:37:45Z]
+	- clasp-gdocs-gsheets (JavaScript, Private): desc [Created: 2024-12-21T10:49:14Z]
+	- unittesting-espidf-pio-gtest (C++, Public): desc [Created: 2023-06-25T19:48:37Z]
+	- multisensor station
+	- arduino flight controller
+- ## Portfolio Hidden
+	- loramesh (C++, Private): desc [Created: 2021-09-03T12:49:19Z]
+	- fish sensor
+	- OKR employee
+	- loramesh research
+	- (explore gittea biar tau projects yang pernah dikerjakan)
+	- motor-testbed (C++, Private): desc [Created: 2021-11-17T05:53:33Z]
+		- motortestbed (C++, Private): Making a OOP firmware for motortestbed [Created: 2022-11-09T04:48:34Z]
+		- motor-testbed-2 (C++, Private): desc [Created: 2022-10-11T12:58:47Z]
+	- forestbox (C++, Private): desc [Created: 2021-07-07T11:44:24Z]
+	- research-itb (TypeScript, Private): desc [Created: 2021-06-06T04:42:28Z]
+	- efeeder (C, Private): eFishery smart feeder [Created: 2023-04-09T16:28:33Z]
+- ## Boilerplates
+	- memfault-bare-minimum (C, Public): Basic memfault template featuring wifi, ota, heartbeat [Created: 2023-07-19T11:24:32Z]
+	- clasp-boilerplate (JavaScript): Develop Apps Script projects based using clasp with this boilerplate [Created: 2024-12-30T00:11:13Z]
+	- espidf-arduino-bareminimum (CMake, Public): desc [Created: 2021-01-19T09:07:00Z]
+	- espidf-boilerplate (C++, Private): desc [Created: 2022-10-26T13:32:10Z]
+	- esp-idf-bare-minimum (CMake, Public): desc [Created: 2022-08-25T09:00:35Z]
+- ## Others
+	- web
+		- royyan-blog-nextjs (JavaScript, Public): desc [Created: 2021-03-28T14:24:52Z]
+		- shofiyaroyyan (CSS, Public): A landing page of my wedding. Fully responsive mobile-friendly. Implemented parallax, ink drop animations, custom designs. Wrapped up with a live love story [Created: 2020-10-17T04:33:55Z]
+		- Borobudur-Herbal-OLShop (PHP, Public): desc [Created: 2017-03-30T06:54:16Z]
+	- embedded
+		- nrf52 exploration
+		- ra08h-test (C, Public): desc [Created: 2023-12-13T08:47:42Z]
+		- wifiheatmap-scan-step (C++, Public): desc [Created: 2021-04-16T02:07:39Z]
+		- esp32-blemesh-tryout (C, Public): desc [Created: 2020-11-18T10:01:44Z]
+		- gsm-send-recv-sms (C++, Public): desc [Created: 2020-07-27T02:07:38Z]
+		- efishery-IoT-engineer-test (C++, Private): Skill test [Created: 2022-09-03T13:09:42Z]
+		- esp32cam-capture (C, Public): desc [Created: 2021-04-19T10:48:43Z]
+		- esp32-dma-spi (C++, Public): desc [Created: 2025-01-21T22:28:01Z]
+		- nanopb-esp32 (C++, Public): desc [Created: 2021-07-30T11:06:02Z]
+	- android
+		- chainsaw-classifier (Jupyter Notebook, Public): desc [Created: 2018-07-16T20:20:16Z]
+		- android-coaphttp-profiler (Java, Public): desc [Created: 2018-07-11T04:00:49Z]
+		- android-sound-recorder-amplitude-meter (Java, Public): desc [Created: 2018-07-09T04:32:36Z]
+		- the-sentinel-watchers (Java, Public): desc [Created: 2018-07-07T00:05:19Z]
+		- AmplitudeGraphView-Android (Java, Public): Graph view library to plot audio signal amplitudes in real time [Created: 2018-07-01T03:39:57Z]
+	- robotics
+		- differential_drive_gazebo_ws (Python, Public): desc [Created: 2024-05-05T08:25:33Z]
+		- ws_ros2_opencv (Python, Public): desc [Created: 2024-05-01T11:30:37Z]
