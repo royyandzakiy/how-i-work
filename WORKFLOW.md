@@ -1,0 +1,82 @@
+# IoT Development Workflow
+
+- High Level Planning & Design
+    - Requirements Planning
+        - Business Requirement Document (BRD): Market Analysis, TAM SAM SOM, Financial Analysis Projection, Budgeting
+        - Product Requirement Document (PRD): Double Diamond, Persona Canvas, Value Proposition, Process Workflow, Service Blueprint
+        - Technical Requirements, Success Metrics, Deliverables
+        - Project Charter & Contract
+        - Progress Reporting & Closure
+        - Research & Exploration Plans
+        - Scrum & Extreme Programming (XP)
+    - Systems Engineering
+        - System Architecture: Model Based Systems-Engineering
+    - Hardware Development: Microcontroller & Components Picking
+    - Software System Architecture Design
+        - C4 Diagram
+        - Hardware Features Diagram, Software Components Diagram, Data Flow Diagram (DFD)
+        - Critical System: Flow Diagram, Sequence Diagram
+        - General Software Quality Metrics (Maintainability, Usability, Availability, Portability, Interoperability, Testability)
+        - Embedded Software Quality Metrics (Performance vs Power, Size vs Feature-Rich, Reliability & Redundancy vs Complexity, Cost vs Feature-Rich, Scalability/Modularity vs Simplicity, Realtime-ness vs General Purpose)
+        - Architectural Patterns & Design Patterns Preferences
+        - Storage & Memory Strategy (Flash size, Volatile variables, Array / Stack size)
+
+- Project-Specific Components Development
+    - Sensor, Data Processing & Storage Planning
+    - Actuation & Control Planning
+    - Human Machine Interaction
+    - Configurability Interfacing
+
+- Generic Middlewhere Development
+    - RTOS Task Planning
+        - Task Design Planning
+            - Period, Response Time, Priority, Synchronization
+            - Task DFD
+            - Rate Monotonic Analysis (RMA)
+        - Scheduling Algorithm (EDF, RM, RR)
+        - Watchdog Verification
+        - Verify Runtime Execution (SEGGER SystemView)
+    - Cloud & Communications
+        - Mosquitto, InfluxDB, NodeRED, Grafana (MING)
+
+- Development Environment
+    - Exploration & Familiarization with Tools & Environment
+    - Development Tools
+        - Environment Setup: Toolchain, SDK, Library
+        - IDE: VSCode, STM32CubeIDE
+        - technical docs: erd, rfc, gitlab issues, whimsical
+        - Conventions: Commit Standards, Naming Conventions, Coding Conventions (MISRA-C)
+        - Development Workflow: Scrum, Extreme Programming
+        - communication & collaboration: vscode liveshare, google suite (gmeet, gdocs, gslides, gdrive), slack, jira
+        - cadence & people: daily-weekly-monthly-quarterly cadences, planning-retro, individual dev plan, performance improvement plan, contracts
+    - Testing Planning
+        - Just in Time (JIT) Testing Philosophy
+        - Testing Pyramid: User Acceptance Testing, End-to-End Testing, System/Integration Testing, Unit Testing
+        - Test Scenario Creation
+        - Test Realizatoin
+    - CI/CD Pipeline
+        - Steps: Build, Analyze, Test, Deploy
+        - Tools: Git, Bitbucket, Docker, Jenkins/GitLab
+
+- Debugging
+    - GNU Debugger (GDB), JTAG, Logic Analyzer
+    - Core Dumping (espcoredump.py)
+    - Application Tracing, System/Task Behavior Analysis
+- Optimizing
+    - Speed Optimization
+    - Minimizing Binary Size
+    - MInimizing RAM Usage
+
+- Embedded Software Tools
+    - Requirements & Project Management: JIRA, Clickup, Slack
+    - Business Processes: Miro, Whimsical
+    - Software Architecture: Draw.io, Ludichart, Visual Paradigm
+    - Version Control: Git, Bitbucket, Github, SourceTree
+    - CI/CD: Jenkins, GitLab, Github Actions, Docker
+    - SDK: ESP IDF, Arduino, STM32Cube, NRFConnect; Zephyr
+    - Compilers: GCC
+    - Testing: GoogleTest, PyTest, GCov
+    - IDE: VSCode, STM32CubeIDE
+    - RTOS Debugging: SEGGER SystemView
+    - Radio Communications: Bluetooth Sniffer, Software Defined Radio (SDR)
+    - Physical Communications: Logic Analyzer
