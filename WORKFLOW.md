@@ -6,9 +6,10 @@
         - Product Requirement Document (PRD): Double Diamond, Persona Canvas, Value Proposition, Process Workflow, Service Blueprint
         - Technical Requirements, Success Metrics, Deliverables
         - Project Charter & Contract
-        - Progress Reporting & Closure
-        - Research & Exploration Plans
         - Scrum & Extreme Programming (XP)
+        - Research & Exploration Plans
+        - Maintenance Plans
+        - Progress Reporting & Closure
     - Systems Engineering
         - System Architecture: Model Based Systems-Engineering
     - Hardware Development: Microcontroller & Components Picking
@@ -72,6 +73,7 @@
     - Business Processes: Miro, Whimsical
     - Software Architecture: Draw.io, Ludichart, Visual Paradigm
     - Version Control: Git, Bitbucket, Github, SourceTree
+    - Documentation: Sphynx, Docusaurus, Doxygen
     - CI/CD: Jenkins, GitLab, Github Actions, Docker
     - SDK: ESP IDF, Arduino, STM32Cube, NRFConnect; Zephyr
     - Compilers: GCC
