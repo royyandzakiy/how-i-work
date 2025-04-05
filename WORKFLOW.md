@@ -24,6 +24,7 @@
 
 - Project-Specific Components Development
     - Sensor, Data Processing & Storage Planning
+    - Connectivity of choice (WiFi, BLE, LoRa, GSM, Satellite)
     - Actuation & Control Planning
     - Human Machine Interaction
     - Configurability Interfacing
