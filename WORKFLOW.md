@@ -27,6 +27,7 @@
     - API Contract & Data Format
     - Sensor, Data Processing & Storage Planning
     - Connectivity of choice (WiFi, BLE, LoRa, GSM, Satellite)
+       - Connectivity Configurations & Strategies (Mesh, Star Topology; Long Range, High Datarate; Amplification (dBm), Antenna Placement; Pricing; Legal Compliance;
     - Actuation & Control Planning
     - Human Machine Interaction
     - Configurability Interfacing
