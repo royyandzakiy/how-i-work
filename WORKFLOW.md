@@ -56,8 +56,8 @@
     - Testing Planning
         - Just in Time (JIT) Testing Philosophy
         - Testing Pyramid: User Acceptance Testing, End-to-End Testing, System/Integration Testing, Unit Testing
-        - Test Scenario Creation
-        - Test Realizatoin
+        - Exhaustive Testing, FMEA
+        - Test Scenario Creation, Test Realizatoin
     - CI/CD Pipeline
         - Steps: Build, Analyze, Test, Deploy
         - Tools: Git, Bitbucket, Docker, Jenkins/GitLab
