@@ -45,7 +45,7 @@
         - Mosquitto, InfluxDB, NodeRED, Grafana (MING)
 
 - Development Environment
-    - Exploration & Familiarization with Tools & Environment
+    - Exploration & Familiarization with Tools & Environment; Getting Started Guides; Examples; Development Environment Docker Image;
     - Development Tools
         - Environment Setup: Toolchain, SDK, Library
         - IDE: VSCode, STM32CubeIDE
