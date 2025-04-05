@@ -71,14 +71,14 @@
     - Minimizing Binary Size
     - MInimizing RAM Usage
 
-- Embedded Software Tools
+- Tools
     - Requirements & Project Management: JIRA, Clickup, Slack
     - Business Processes: Miro, Whimsical
     - Software Architecture: Draw.io, Ludichart, Visual Paradigm
     - Version Control: Git, Bitbucket, Github, SourceTree
     - Documentation: Sphynx, Docusaurus, Doxygen
     - CI/CD: Jenkins, GitLab, Github Actions, Docker
-    - SDK: ESP IDF, Arduino, STM32Cube, NRFConnect; Zephyr
+    - SDK: ESP IDF, Arduino, STM32Cube, NRFConnect; Zephyr RTOS, FreeRTOS
     - Compilers: GCC
     - Testing: GoogleTest, PyTest, GCov
     - IDE: VSCode, STM32CubeIDE
