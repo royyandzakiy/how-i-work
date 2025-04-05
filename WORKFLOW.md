@@ -13,7 +13,7 @@
         - Progress Reporting & Closure
     - Systems Engineering
         - System Architecture: Model Based Systems-Engineering
-    - Hardware Development: Microcontroller & Components Picking
+    - Hardware Development: Microcontroller & Components Picking; Schematics Design, PCB Development Iteration; Enclosure Design Iteration; Physical Scenario Testing;
     - Software System Architecture Design
         - C4 Diagram
         - Hardware Features Diagram, Software Components Diagram, Data Flow Diagram (DFD)
