@@ -24,6 +24,7 @@
         - Storage & Memory Strategy (Flash size, Volatile variables, Array / Stack size)
 
 - Project-Specific Components Development
+    - API Contract & Data Format
     - Sensor, Data Processing & Storage Planning
     - Connectivity of choice (WiFi, BLE, LoRa, GSM, Satellite)
     - Actuation & Control Planning
