@@ -68,10 +68,12 @@
     - Core Dumping (espcoredump.py) & Data Corruption Analysis
     - Application Tracing, System/Task Behavior Analysis
     - Linker Script & Symbols Analysis
+
 - Optimizing
     - Speed Optimization
     - Minimizing Binary Size
-    - MInimizing RAM Usage
+    - Minimizing RAM Usage
+    - Power Usage Optimization
 
 - Tools
     - Requirements & Project Management: JIRA, Clickup, Slack
