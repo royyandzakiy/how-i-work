@@ -64,9 +64,10 @@
         - Tools: Git, Bitbucket, Docker, Jenkins/GitLab
 
 - Debugging
-    - GNU Debugger (GDB), JTAG, Logic Analyzer
-    - Core Dumping (espcoredump.py)
+    - GNU Debugger (GDB), JTAG, Logic Analyzer, Runtime Analysis
+    - Core Dumping (espcoredump.py) & Data Corruption Analysis
     - Application Tracing, System/Task Behavior Analysis
+    - Linker Script & Symbols Analysis
 - Optimizing
     - Speed Optimization
     - Minimizing Binary Size
