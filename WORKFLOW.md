@@ -57,7 +57,7 @@
     - Testing Planning
         - Just in Time (JIT) Testing Philosophy
         - Testing Pyramid: User Acceptance Testing, End-to-End Testing, System/Integration Testing, Unit Testing
-        - Exhaustive Testing, Failire Mode & Effects Analysis (FMEA)
+        - Exhaustive Testing, Failure Mode & Effects Analysis (FMEA)
         - Test Scenario Creation, Test Realizatoin
     - CI/CD Pipeline
         - Steps: Build, Analyze, Test, Deploy
