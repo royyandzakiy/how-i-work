@@ -1,10 +1,11 @@
 - ## Portfolio Spotlight
-	- [aquifera-waterbox]() (C++, Public): Official firmware of Aquifera Waterbox IoT Device used for colllecting water debit data
 	- [LoRa-RHMesh]() (C++, Public): LoRa Mesh network experimental projects repository. Developed using the RadioHead library on an ESP32 attached to a RFM95 LoRa Chip
+	- multisensor station
+	- [aquifera-waterbox]() (C++, Public): Official firmware of Aquifera Waterbox IoT Device used for colllecting water debit data
+	- stm32 flight controller
+	- esp32 baremetal rtos
 	- [clasp-gdocs-gsheets]() (JavaScript, Private): desc
 	- [unittesting-espidf-pio-gtest]() (C++, Public): desc
-	- multisensor station
-	- arduino flight controller
 - ## Portfolio Private (Work)
 	- [loramesh]() (C++, Private): desc
 	- fish sensor

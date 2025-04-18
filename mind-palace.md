@@ -1,0 +1,72 @@
+- # Software Engineering
+    - Workflow
+        - https://github.com/royyandzakiy/WORKFLOW.md
+    - Architecting
+        - https://github.com/royyandzakiy/multisensor-station
+    - Unit Tests & TDD
+        - https://github.com/royyandzakiy/cmake-gtest-boilerplate
+        - https://github.com/royyandzakiy/clasp-gdocs-gsheets
+    - Documenting: Doxygen
+        - https://github.com/royyandzakiy/doxy-helloworld
+    - Debugging: GDB
+        - …
+- # Getting Started Guides
+    - cmake
+        - gtest: https://github.com/royyandzakiy/cmake-gtest-boilerplate
+    - winrt component: 
+        - same .sln: https://github.com/royyandzakiy/ThermometerWRC
+    - zephyr: https://github.com/royyandzakiy/zephyr-getting-started
+    - qml: https://github.com/royyandzakiy/mantis-gcs
+    - esp idf: https://github.com/royyandzakiy/espidf-boilerplate
+    - pio
+        - gtest: https://github.com/royyandzakiy/unittesting-espidf-pio-gtest
+        - unity: https://github.com/royyandzakiy/unittesting-arduino-pio-unity
+    - clasp: https://github.com/royyandzakiy/clasp-boilerplate
+    - cubemx: https://github.com/royyandzakiy/stm32-blink-cubemx
+    - gazebo: https://github.com/royyandzakiy/differential_drive_gazebo_ws
+    - ros2: https://github.com/royyandzakiy/ws_ros2_opencv
+- # Explorations
+    - https://github.com/royyandzakiy/esp32-baremetal-rtos
+    - https://github.com/royyandzakiy/esp32-freertos-examples
+    - https://github.com/royyandzakiy/stm32-flightcontroller
+    - esp32cam:
+        - https://github.com/royyandzakiy/esp32cam-stream-yolo-pio
+        - https://github.com/royyandzakiy/esp32cam-capture
+    - https://github.com/royyandzakiy/LoRa-RHMesh
+    - https://github.com/royyandzakiy/game_dungeon_simple
+    - https://github.com/royyandzakiy/rf_433
+    - https://github.com/royyandzakiy/RtosTaskChecker
+    - https://github.com/royyandzakiy/mqtt-tinygsm-wifi
+    - https://github.com/royyandzakiy/shofiyaroyyan
+    - https://github.com/royyandzakiy/zephyr-ble-service-custom
+    - nextjs:
+        - https://github.com/royyandzakiy/royyan-blog-nextjs
+        - https://github.com/royyandzakiy/next-chakra-personal-website
+- # Work
+    - ## Aquifera
+        - https://github.com/royyandzakiy/forestbox
+        - https://github.com/kemalrizky/waterbox-dev
+        - https://github.com/royyandzakiy/forestwatch
+        - https://github.com/royyandzakiy/heartrate-kit
+        - https://github.com/royyandzakiy/aquifera-waterflow-sms
+    - # Efishery
+        - https://github.com/royyandzakiy/loadcell-firmware
+        - https://github.com/royyandzakiy/motor-testbed
+        - https://github.com/royyandzakiy/xiaomi-scale
+    - ## Shiftacademy
+        - https://github.com/royyandzakiy/shiftacademy-iot-course
+    - ## SBM-Space
+        - https://github.com/royyandzakiy/research-itb
+    - ## Self
+        - https://github.com/royyandzakiy/royyandzakiy.github.io
+        - https://github.com/royyandzakiy/royyandzakiy.com
+    - ## ITB
+        - https://github.com/royyandzakiy/TheSentinelWatcher
+        - https://github.com/royyandzakiy/RocketManiaGame
+        - https://github.com/royyandzakiy/e-canteen
+        - https://github.com/royyandzakiy/presensi-km-itb
+        - https://github.com/adafruit/RadioHead
+        - https://github.com/royyandzakiy/TheSentinelWatcher
+        - https://github.com/royyandzakiy/android-sound-recorder-amplitude-meter
+        - https://github.com/royyandzakiy/pasti-bps
+        - https://github.com/royyandzakiy/ojek-online

@@ -1,11 +1,14 @@
-# IoT Development Workflow
+# Software Development Workflow
 
-- High Level Planning & Design
+- ## High Level Planning & Design
     - Requirements Planning
         - Business Requirement Document (BRD): Market Analysis, TAM SAM SOM, Financial Analysis Projection, Budgeting
         - Product Requirement Document (PRD): Double Diamond, Persona Canvas, Value Proposition, Process Workflow, Service Blueprint
+            - https://www.notion.so/Product-Requirement-Document-Template-1d96290b5f3e80f0adc3e6faa414443c
         - Technical Requirements, Success Metrics, Deliverables
         - Project Charter & Contract
+            - https://docs.google.com/document/u/0/d/14XNRwKzMf3D1lLIfkhZ0m5Oadi8s2TBdBwwvdRO3zTg/edit
+            - https://docs.google.com/document/u/0/d/14XNRwKzMf3D1lLIfkhZ0m5Oadi8s2TBdBwwvdRO3zTg/edit
         - Scrum & Extreme Programming (XP)
         - Research & Exploration Plans
         - Maintenance Plans
@@ -15,20 +18,36 @@
     - Hardware Development: Microcontroller & Components Picking
     - Software System Architecture Design
         - C4 Diagram
+        - Data Planning
+            - Type, Size, Occurence
+            - Safe Guard
         - Hardware Features Diagram, Software Components Diagram, Data Flow Diagram (DFD)
-        - Critical System: Flow Diagram, Sequence Diagram
+        - Critical Components: Flow Diagram, Sequence Diagram
         - General Software Quality Metrics (Maintainability, Usability, Availability, Portability, Interoperability, Testability)
         - Embedded Software Quality Metrics (Performance vs Power, Size vs Feature-Rich, Reliability & Redundancy vs Complexity, Cost vs Feature-Rich, Scalability/Modularity vs Simplicity, Realtime-ness vs General Purpose)
         - Architectural Patterns & Design Patterns Preferences
         - Storage & Memory Strategy (Flash size, Volatile variables, Array / Stack size)
+    - Exploration & Familiarization with Tools & Environment
 
-- Project-Specific Components Development
+- ## Project-Specific Components Development
     - Sensor, Data Processing & Storage Planning
+        - Sensor Sample Rate
+        - Sensor Accuracy Testing
     - Actuation & Control Planning
+        - Control Mathematical Modelling
+        - Model Based Development for control algorithm
+        - PID Simulation & Tuning
+    - Advanced Sensing & Motion
+        - 2D/3D Modelling
+        - Perception, Navigation
+        - Advanced Algorithms
+        - Genereal Computer/Autopilot
     - Human Machine Interaction
+        - On-Device: LCD, Control Board
+        - Off-Device: Mobile App
     - Configurability Interfacing
 
-- Generic Middlewhere Development
+- ## Generic Middlewhere Development
     - RTOS Task Planning
         - Task Design Planning
             - Period, Response Time, Priority, Synchronization
@@ -40,16 +59,15 @@
     - Cloud & Communications
         - Mosquitto, InfluxDB, NodeRED, Grafana (MING)
 
-- Development Environment
-    - Exploration & Familiarization with Tools & Environment
+- ## Development Environment
     - Development Tools
         - Environment Setup: Toolchain, SDK, Library
         - IDE: VSCode, STM32CubeIDE
-        - technical docs: erd, rfc, gitlab issues, whimsical
+        - Technical docs: Engineering Requirement Document (ERD), Request for Comment (RFC), GitLab Issues, Whimsical
         - Conventions: Commit Standards, Naming Conventions, Coding Conventions (MISRA-C)
         - Development Workflow: Scrum, Extreme Programming
-        - communication & collaboration: vscode liveshare, google suite (gmeet, gdocs, gslides, gdrive), slack, jira
-        - cadence & people: daily-weekly-monthly-quarterly cadences, planning-retro, individual dev plan, performance improvement plan, contracts
+        - Communication & Collaboration: VSCode Liveshare, Google Suite (GMeet, GDocs, GSlides, GDrive), Slack, JIRA
+        - Cadence & People: Daily-Weekly-Monthly-Quarterly Cadences, Planning-Retro, Individual Development Plan (IDP), Performance Improvement Plan (PIP), Contracts
     - Testing Planning
         - Just in Time (JIT) Testing Philosophy
         - Testing Pyramid: User Acceptance Testing, End-to-End Testing, System/Integration Testing, Unit Testing
@@ -59,16 +77,18 @@
         - Steps: Build, Analyze, Test, Deploy
         - Tools: Git, Bitbucket, Docker, Jenkins/GitLab
 
-- Debugging
-    - GNU Debugger (GDB), JTAG, Logic Analyzer
-    - Core Dumping (espcoredump.py)
-    - Application Tracing, System/Task Behavior Analysis
-- Optimizing
-    - Speed Optimization
-    - Minimizing Binary Size
-    - MInimizing RAM Usage
+- ## Problem Solving
+    - ### Optimizing
+        - Speed Optimization
+        - Minimizing Binary Size
+        - Minimizing RAM Usage
 
-- Embedded Software Tools
+    - ### Debugging
+        - GNU Debugger (GDB), JTAG, Logic Analyzer
+        - Core Dumping (espcoredump.py)
+        - Application Tracing, System/Task Behavior Analysis
+
+- ## Embedded Software Tools
     - Requirements & Project Management: JIRA, Clickup, Slack
     - Business Processes: Miro, Whimsical
     - Software Architecture: Draw.io, Ludichart, Visual Paradigm
@@ -78,7 +98,7 @@
     - SDK: ESP IDF, Arduino, STM32Cube, NRFConnect; Zephyr
     - Compilers: GCC
     - Testing: GoogleTest, PyTest, GCov
-    - IDE: VSCode, STM32CubeIDE
+    - IDE: VSCode, Visual Studio 2022
     - RTOS Debugging: SEGGER SystemView
-    - Radio Communications: Bluetooth Sniffer, Software Defined Radio (SDR)
+    - Radio Communications: nRF Connect for Mobile, Bluetooth Sniffer, Software Defined Radio (SDR)
     - Physical Communications: Logic Analyzer
