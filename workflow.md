@@ -1,34 +1,42 @@
 # Software Development Workflow
 
 - ## High Level Planning & Design
-    - Requirements Planning
+    - ### Requirements Planning
         - Business Requirement Document (BRD): Market Analysis, TAM SAM SOM, Financial Analysis Projection, Budgeting
         - Product Requirement Document (PRD): Double Diamond, Persona Canvas, Value Proposition, Process Workflow, Service Blueprint
             - https://www.notion.so/Product-Requirement-Document-Template-1d96290b5f3e80f0adc3e6faa414443c
         - Business Roadmap, Product Roadmap, Technology Roadmap
         - Technical Requirements, Success Metrics, Deliverables
         - Project Charter & Contract
-            - https://docs.google.com/document/u/0/d/14XNRwKzMf3D1lLIfkhZ0m5Oadi8s2TBdBwwvdRO3zTg/edit
-            - https://docs.google.com/document/u/0/d/14XNRwKzMf3D1lLIfkhZ0m5Oadi8s2TBdBwwvdRO3zTg/edit
+            - Research & Exploration Plans
+            - Maintenance Plans
+            - Progress Reporting & Closure
+            - Project Charter - Smart Halter:
+                - [Project Charter (Docs)](https://docs.google.com/document/u/0/d/14XNRwKzMf3D1lLIfkhZ0m5Oadi8s2TBdBwwvdRO3zTg/edit)
+                - [Project Charter Details (Sheets)](https://docs.google.com/spreadsheets/d/1zrRuUJA2MXGuf2W8vRYD_bBBIZAOKVuyWRrk97leJ2w/edit?gid=434504498#gid=434504498)
+            - Rosmianto Freelance Kit: "\royyan\Work\Freelance IoT\Rosmianto Freelance Kit\"
         - Scrum & Extreme Programming (XP)
-        - Research & Exploration Plans
-        - Maintenance Plans
-        - Progress Reporting & Closure
-    - Systems Engineering
-        - System Architecture: Model Based Systems-Engineering
-    - Hardware Development: Microcontroller & Components Picking; Schematics Design, PCB Development Iteration; Enclosure Design Iteration; Physical Scenario Testing;
-    - Software System Architecture Design
+    - ### Hardware Development
+        - Microcontroller & Components Picking; Schematics Design, PCB Development Iteration; Enclosure Design Iteration; Physical Scenario Testing;
+    - ### Software Architecture Design
         - C4 Diagram
         - Data Planning
             - Type, Size, Occurence
             - Safe Guard
         - Hardware Features Diagram, Software Components Diagram, Data Flow Diagram (DFD)
         - Critical Components: Flow Diagram, Sequence Diagram
-        - General Software Quality Metrics (Maintainability, Usability, Availability, Portability, Interoperability, Testability)
-        - Embedded Software Quality Metrics (Performance vs Power, Size vs Feature-Rich, Reliability & Redundancy vs Complexity, Cost vs Feature-Rich, Scalability/Modularity vs Simplicity, Realtime-ness vs General Purpose)
+        - Quality Metrics:
+            - General Software Quality Metrics: Maintainability, Usability, Availability, Portability, Interoperability, Testability
+            - Embedded Software Quality Metrics: Performance vs Power, Size vs Feature-Rich, Reliability & Redundancy vs Complexity, Cost vs Feature-Rich, Scalability/Modularity vs Simplicity, Realtime-ness vs General Purpose
+            - Source:
+                - Software Architecture Handbook
+                - [hallucinogen/engineering-leadership](https://github.com/hallucinogen/engineering-leadership)
+                - [ISO25000 Standard](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
         - Architectural Patterns & Design Patterns Preferences
-        - Storage & Memory Strategy (Flash size, Volatile variables, Array / Stack size)
-    - Exploration & Familiarization with Tools & Environment
+        - Storage & Memory Strategy: Flash size, Volatile variables, Array / Stack size
+        - Systems Engineering
+            - System Architecture: Model Based Systems-Engineering, Simulation
+    - ### Exploration & Familiarization with Tools & Environment
 
 - ## Project-Specific Components Development
     - API Contract & Data Format
@@ -81,6 +89,10 @@
     - CI/CD Pipeline
         - Steps: Build, Analyze, Test, Deploy
         - Tools: Git, Bitbucket, Docker, Jenkins/GitLab
+
+- ## Team Development
+    - Software Engineering Knowledge Body
+        - [SFIA & SWEBOK](https://sfia-online.org/en/tools-and-resources/bodies-of-knowledge/swebok-software-engineering-body-of-knowledge/swebok-sfia8-the-guide-to-the-software-engineering-body-of-knowledge)
 
 - ## Problem Solving
     - ### Optimizing
