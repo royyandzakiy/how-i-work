@@ -1,50 +1,80 @@
-- ## Portfolio Spotlight
-	- [LoRa-RHMesh]() (C++, Public): LoRa Mesh network experimental projects repository. Developed using the RadioHead library on an ESP32 attached to a RFM95 LoRa Chip
-	- multisensor station
-	- [aquifera-waterbox]() (C++, Public): Official firmware of Aquifera Waterbox IoT Device used for colllecting water debit data
-	- stm32 flight controller
-	- esp32 baremetal rtos
-	- [clasp-gdocs-gsheets]() (JavaScript, Private): desc
-	- [unittesting-espidf-pio-gtest]() (C++, Public): desc
-- ## Portfolio Private (Work)
-	- [loramesh]() (C++, Private): desc
-	- fish sensor
-	- OKR employee
-	- loramesh research
-	- (explore gittea biar tau projects yang pernah dikerjakan)
-	- [motor-testbed]() (C++, Private): desc
-		- [motortestbed]() (C++, Private): Making a OOP firmware for motortestbed
-		- [motor-testbed-2]() (C++, Private): desc
-	- [forestbox]() (C++, Private): desc
-	- [research-itb]() (TypeScript, Private): desc
-	- [efeeder]() (C, Private): eFishery smart feeder
-- ## Boilerplates
-	- [memfault-bare-minimum]() (C, Public): Basic memfault template featuring wifi, ota, heartbeat
-	- [clasp-boilerplate]() (JavaScript): Develop Apps Script projects based using clasp with this boilerplate
-	- [espidf-arduino-bareminimum]() (CMake, Public): desc
-	- [espidf-boilerplate]() (C++, Private): desc
-	- [esp-idf-bare-minimum]() (CMake, Public): desc
-- ## Others
-	- web
-		- [royyan-blog-nextjs]() (JavaScript, Public): desc
-		- [shofiyaroyyan]() (CSS, Public): A landing page of my wedding. Fully responsive mobile-friendly. Implemented parallax, ink drop animations, custom designs. Wrapped up with a live love story
-		- [Borobudur-Herbal-OLShop]() (PHP, Public): desc
-	- embedded
-		- nrf52 exploration
-		- [ra08h-test]() (C, Public): desc
-		- [wifiheatmap-scan-step]() (C++, Public): desc
-		- [esp32-blemesh-tryout]() (C, Public): desc
-		- [gsm-send-recv-sms]() (C++, Public): desc
-		- [efishery-IoT-engineer-test]() (C++, Private): Skill test
-		- [esp32cam-capture]() (C, Public): desc
-		- [esp32-dma-spi]() (C++, Public): desc
-		- [nanopb-esp32]() (C++, Public): desc
-	- android
-		- [chainsaw-classifier]() (Jupyter Notebook, Public): desc
-		- [android-coaphttp-profiler]() (Java, Public): desc
-		- [android-sound-recorder-amplitude-meter]() (Java, Public): desc
-		- [the-sentinel-watchers]() (Java, Public): desc
-		- [AmplitudeGraphView-Android]() (Java, Public): Graph view library to plot audio signal amplitudes in real time
-	- robotics
-		- [differential_drive_gazebo_ws]() (Python, Public): desc
-		- [ws_ros2_opencv]() (Python, Public): desc
+# Projects Portfolio
+- ## Software Engineering
+    - Workflow
+        - [royyandzakiy/how-i-work](https://github.com/royyandzakiy/how-i-work/blob/master/WORKFLOW.md)
+    - Architecting
+        - [royyandzakiy/multisensor-station](https://github.com/royyandzakiy/multisensor-station)
+    - Unit Tests & TDD
+        - [royyandzakiy/cmake-gtest-boilerplate](https://github.com/royyandzakiy/cmake-gtest-boilerplate)
+        - [royyandzakiy/clasp-gdocs-gsheets](https://github.com/royyandzakiy/clasp-gdocs-gsheets)
+    - Documenting: Doxygen
+        - [royyandzakiy/doxy-helloworld](https://github.com/royyandzakiy/doxy-helloworld)
+    - Debugging: GDB
+        - …
+- ## Getting Started Guides
+    - cmake
+        - gtest: [royyandzakiy/cmake-gtest-boilerplate](https://github.com/royyandzakiy/cmake-gtest-boilerplate)
+    - winrt component: 
+        - same .sln: [royyandzakiy/ThermometerWRC](https://github.com/royyandzakiy/ThermometerWRC)
+    - zephyr: [royyandzakiy/zephyr-getting-started](https://github.com/royyandzakiy/zephyr-getting-started)
+    - qml: [royyandzakiy/mantis-gcs](https://github.com/royyandzakiy/mantis-gcs)
+    - esp idf: [royyandzakiy/espidf-boilerplate](https://github.com/royyandzakiy/espidf-boilerplate)
+    - pio
+        - gtest: [royyandzakiy/unittesting-espidf-pio-gtest](https://github.com/royyandzakiy/unittesting-espidf-pio-gtest)
+        - unity: [royyandzakiy/unittesting-arduino-pio-unity](https://github.com/royyandzakiy/unittesting-arduino-pio-unity)
+        - ra08h: [kemalrizky/ra08h-test](https://github.com/kemalrizky/ra08h-test)
+    - clasp: [royyandzakiy/clasp-boilerplate](https://github.com/royyandzakiy/clasp-boilerplate)
+    - cubemx: [royyandzakiy/stm32-blink-cubemx](https://github.com/royyandzakiy/stm32-blink-cubemx)
+    - gazebo: [royyandzakiy/differential_drive_gazebo_ws](https://github.com/royyandzakiy/differential_drive_gazebo_ws)
+    - ros2: [royyandzakiy/ws_ros2_opencv](https://github.com/royyandzakiy/ws_ros2_opencv)
+    - memfault: (royyandzakiy/memfault-bare-minimum)(https://github.com/royyandzakiy/memfault-bare-minimum)
+- ## Explorations
+    - [royyandzakiy/esp32-baremetal-rtos](https://github.com/royyandzakiy/esp32-baremetal-rtos)
+    - [royyandzakiy/ardupilot_mavlink_fastapi](https://github.com/royyandzakiy/ardupilot_mavlink_fastapi)
+    - [royyandzakiy/esp32-freertos-examples](https://github.com/royyandzakiy/esp32-freertos-examples)
+    - [royyandzakiy/stm32-flightcontroller](https://github.com/royyandzakiy/stm32-flightcontroller)
+    - esp32cam:
+        - [royyandzakiy/esp32cam-stream-yolo-pio](https://github.com/royyandzakiy/esp32cam-stream-yolo-pio)
+        - [royyandzakiy/esp32cam-capture](https://github.com/royyandzakiy/esp32cam-capture)
+    - [royyandzakiy/LoRa-RHMesh](https://github.com/royyandzakiy/LoRa-RHMesh)
+    - [royyandzakiy/game_dungeon_simple](https://github.com/royyandzakiy/game_dungeon_simple)
+    - [royyandzakiy/rf_433](https://github.com/royyandzakiy/rf_433)
+    - [royyandzakiy/RtosTaskChecker](https://github.com/royyandzakiy/RtosTaskChecker)
+    - [royyandzakiy/mqtt-tinygsm-wifi](https://github.com/royyandzakiy/mqtt-tinygsm-wifi)
+    - [royyandzakiy/shofiyaroyyan](https://github.com/royyandzakiy/shofiyaroyyan)
+    - [royyandzakiy/zephyr-ble-service-custom](https://github.com/royyandzakiy/zephyr-ble-service-custom)
+    - nextjs:
+        - [royyandzakiy/royyan-blog-nextjs](https://github.com/royyandzakiy/royyan-blog-nextjs)
+        - [royyandzakiy/next-chakra-personal-website](https://github.com/royyandzakiy/next-chakra-personal-website)
+- ## Work
+    - ### Aquifera
+        - [royyandzakiy/forestbox](https://github.com/royyandzakiy/forestbox)
+        - [kemalrizky/waterbox-dev](https://github.com/kemalrizky/waterbox-dev)
+        - [royyandzakiy/forestwatch](https://github.com/royyandzakiy/forestwatch)
+        - [royyandzakiy/heartrate-kit](https://github.com/royyandzakiy/heartrate-kit)
+        - [royyandzakiy/aquifera-waterflow-sms](https://github.com/royyandzakiy/aquifera-waterflow-sms)
+    - ## Efishery
+        - eFishery Smart Feeder
+        - fish-sensor-nrf
+        - employee-raport-autogenerator
+        - individual-contribution-report-generator
+        - [royyandzakiy/loadcell-firmware](https://github.com/royyandzakiy/loadcell-firmware)
+        - [royyandzakiy/motor-testbed](https://github.com/royyandzakiy/motor-testbed)
+        - [royyandzakiy/xiaomi-scale](https://github.com/royyandzakiy/xiaomi-scale)
+    - ### Shiftacademy
+        - [royyandzakiy/shiftacademy-iot-course](https://github.com/royyandzakiy/shiftacademy-iot-course)
+    - ### SBM-Space
+        - [royyandzakiy/research-itb](https://github.com/royyandzakiy/research-itb)
+    - ### Self
+        - [royyandzakiy/royyandzakiy.github.io](https://github.com/royyandzakiy/royyandzakiy.github.io)
+        - [royyandzakiy/royyandzakiy.com](https://github.com/royyandzakiy/royyandzakiy.com)
+    - ### ITB
+        - [royyandzakiy/TheSentinelWatcher](https://github.com/royyandzakiy/TheSentinelWatcher)
+        - [royyandzakiy/RocketManiaGame](https://github.com/royyandzakiy/RocketManiaGame)
+        - [royyandzakiy/e-canteen](https://github.com/royyandzakiy/e-canteen)
+        - [royyandzakiy/presensi-km-itb](https://github.com/royyandzakiy/presensi-km-itb)
+        - [adafruit/RadioHead](https://github.com/adafruit/RadioHead)
+        - [royyandzakiy/TheSentinelWatcher](https://github.com/royyandzakiy/TheSentinelWatcher)
+        - [royyandzakiy/android-sound-recorder-amplitude-meter](https://github.com/royyandzakiy/android-sound-recorder-amplitude-meter)
+        - [royyandzakiy/pasti-bps](https://github.com/royyandzakiy/pasti-bps)
+        - [royyandzakiy/ojek-online](https://github.com/royyandzakiy/ojek-online)
