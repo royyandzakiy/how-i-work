@@ -5,6 +5,7 @@
         - Business Requirement Document (BRD): Market Analysis, TAM SAM SOM, Financial Analysis Projection, Budgeting
         - Product Requirement Document (PRD): Double Diamond, Persona Canvas, Value Proposition, Process Workflow, Service Blueprint
             - https://www.notion.so/Product-Requirement-Document-Template-1d96290b5f3e80f0adc3e6faa414443c
+        - Business Roadmap, Product Roadmap, Technology Roadmap
         - Technical Requirements, Success Metrics, Deliverables
         - Project Charter & Contract
             - https://docs.google.com/document/u/0/d/14XNRwKzMf3D1lLIfkhZ0m5Oadi8s2TBdBwwvdRO3zTg/edit
@@ -15,7 +16,7 @@
         - Progress Reporting & Closure
     - Systems Engineering
         - System Architecture: Model Based Systems-Engineering
-    - Hardware Development: Microcontroller & Components Picking
+    - Hardware Development: Microcontroller & Components Picking; Schematics Design, PCB Development Iteration; Enclosure Design Iteration; Physical Scenario Testing;
     - Software System Architecture Design
         - C4 Diagram
         - Data Planning
@@ -30,9 +31,12 @@
     - Exploration & Familiarization with Tools & Environment
 
 - ## Project-Specific Components Development
+    - API Contract & Data Format
     - Sensor, Data Processing & Storage Planning
         - Sensor Sample Rate
         - Sensor Accuracy Testing
+    - Connectivity of choice (WiFi, BLE, LoRa, GSM, Satellite)
+       - Connectivity Configurations & Strategies (Mesh, Star Topology; Long Range, High Datarate; Amplification (dBm), Antenna Placement; Pricing; Legal Compliance;
     - Actuation & Control Planning
         - Control Mathematical Modelling
         - Model Based Development for control algorithm
@@ -60,6 +64,7 @@
         - Mosquitto, InfluxDB, NodeRED, Grafana (MING)
 
 - ## Development Environment
+    - Exploration & Familiarization with Tools & Environment; Getting Started Guides; Examples; Development Environment Docker Image;
     - Development Tools
         - Environment Setup: Toolchain, SDK, Library
         - IDE: VSCode, STM32CubeIDE
@@ -71,8 +76,8 @@
     - Testing Planning
         - Just in Time (JIT) Testing Philosophy
         - Testing Pyramid: User Acceptance Testing, End-to-End Testing, System/Integration Testing, Unit Testing
-        - Test Scenario Creation
-        - Test Realizatoin
+        - Exhaustive Testing, Failure Mode & Effects Analysis (FMEA)
+        - Test Scenario Creation, Test Realizatoin
     - CI/CD Pipeline
         - Steps: Build, Analyze, Test, Deploy
         - Tools: Git, Bitbucket, Docker, Jenkins/GitLab
@@ -82,20 +87,22 @@
         - Speed Optimization
         - Minimizing Binary Size
         - Minimizing RAM Usage
+        - Power Usage Optimization
 
     - ### Debugging
-        - GNU Debugger (GDB), JTAG, Logic Analyzer
-        - Core Dumping (espcoredump.py)
+        - GNU Debugger (GDB), JTAG, Logic Analyzer, Runtime Analysis
         - Application Tracing, System/Task Behavior Analysis
+        - Core Dumping (espcoredump.py) & Data Corruption Analysis
+        - Linker Script & Symbols Analysis
 
-- ## Embedded Software Tools
+- ## Tools
     - Requirements & Project Management: JIRA, Clickup, Slack
     - Business Processes: Miro, Whimsical
     - Software Architecture: Draw.io, Ludichart, Visual Paradigm
     - Version Control: Git, Bitbucket, Github, SourceTree
     - Documentation: Sphynx, Docusaurus, Doxygen
     - CI/CD: Jenkins, GitLab, Github Actions, Docker
-    - SDK: ESP IDF, Arduino, STM32Cube, NRFConnect; Zephyr
+    - SDK: ESP IDF, Arduino, STM32Cube, NRFConnect; Zephyr RTOS, FreeRTOS
     - Compilers: GCC
     - Testing: GoogleTest, PyTest, GCov
     - IDE: VSCode, Visual Studio 2022
