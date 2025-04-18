@@ -10,7 +10,7 @@ Here are some one page conents
 
 ## Organization Improvement Steps
 <!-- ![Organization Improvement Steps](attachments/organization-improvement-steps.png) -->
-![Organization Improvement Steps](attachments/organization-improvement-steps.pdf)
+[Organization Improvement Steps (PDF)](attachments/organization-improvement-steps.pdf)
 
 ---
 
