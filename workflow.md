@@ -4,7 +4,7 @@
     - ### Requirements Planning
         - Business Requirement Document (BRD): Market Analysis, TAM SAM SOM, Financial Analysis Projection, Budgeting
         - Product Requirement Document (PRD): Double Diamond, Persona Canvas, Value Proposition, Process Workflow, Service Blueprint
-            - https://www.notion.so/Product-Requirement-Document-Template-1d96290b5f3e80f0adc3e6faa414443c
+            - [PRD Template (Notion)](https://www.notion.so/Product-Requirement-Document-Template-1d96290b5f3e80f0adc3e6faa414443c)
         - Business Roadmap, Product Roadmap, Technology Roadmap
         - Technical Requirements, Success Metrics, Deliverables
         - Project Charter & Contract
@@ -36,14 +36,19 @@
             - General Software Quality Metrics: Maintainability, Usability, Availability, Portability, Interoperability, Testability
             - Embedded Software Quality Metrics: Performance vs Power, Size vs Feature-Rich, Reliability & Redundancy vs Complexity, Cost vs Feature-Rich, Scalability/Modularity vs Simplicity, Realtime-ness vs General Purpose
             - Source:
-                - Software Architecture Handbook
+                - _Software Architecture Handbook_
                 - [hallucinogen/engineering-leadership](https://github.com/hallucinogen/engineering-leadership)
                 - [ISO25000 Standard](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
-        - Architectural Patterns & Design Patterns Preferences
+        - Architectural Patterns & [Design Patterns](https://refactoring.guru/design-patterns) Preferences
+            - [Refactoring Strategies - refactoring guru](https://refactoring.guru/refactoring)
         - Storage & Memory Strategy: Flash size, Volatile variables, Array / Stack size
         - Systems Engineering
             - System Architecture: Model Based Systems-Engineering, Simulation
-    - ### Exploration & Familiarization with Tools & Environment
+    - ### Development
+        - Exploration & Familiarization with Tools & Environment
+            - PoC, Rapid Prototyping, Official Documentation, Tutorial/Courses
+            - Setup Development Environment, CI/CD
+        - Routine & Cadences
 
 - ## Project-Specific Components Development
     - API Contract & Data Format
