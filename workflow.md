@@ -75,7 +75,6 @@
     - Exploration & Familiarization with Tools & Environment; Getting Started Guides; Examples; Development Environment Docker Image;
     - Development Tools
         - Environment Setup: Toolchain, SDK, Library
-        - IDE: VSCode, STM32CubeIDE
         - Technical docs: Engineering Requirement Document (ERD), Request for Comment (RFC), GitLab Issues, Whimsical
         - Conventions: Commit Standards, Naming Conventions, Coding Conventions (MISRA-C)
         - Development Workflow: Scrum, Extreme Programming
@@ -115,8 +114,8 @@
     - Documentation: Sphynx, Docusaurus, Doxygen
     - CI/CD: Jenkins, GitLab, Github Actions, Docker
     - SDK: ESP IDF, Arduino, STM32Cube, NRFConnect; Zephyr RTOS, FreeRTOS
-    - Compilers: GCC
-    - Testing: GoogleTest, PyTest, GCov
+    - Build Tools: CMake, GCC
+    - Testing: GoogleTest, PyTest, GCov, CTest, Unity
     - IDE: VSCode, Visual Studio 2022
     - RTOS Debugging: SEGGER SystemView
     - Radio Communications: nRF Connect for Mobile, Bluetooth Sniffer, Software Defined Radio (SDR)
