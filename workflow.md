@@ -11,10 +11,17 @@
             - Research & Exploration Plans
             - Maintenance Plans
             - Progress Reporting & Closure
-            - Project Charter - Smart Halter:
-                - [Project Charter (Docs)](https://docs.google.com/document/u/0/d/14XNRwKzMf3D1lLIfkhZ0m5Oadi8s2TBdBwwvdRO3zTg/edit)
-                - [Project Charter Details (Sheets)](https://docs.google.com/spreadsheets/d/1zrRuUJA2MXGuf2W8vRYD_bBBIZAOKVuyWRrk97leJ2w/edit?gid=434504498#gid=434504498)
-            - Rosmianto Freelance Kit: "\royyan\Work\Freelance IoT\Rosmianto Freelance Kit\"
+            - Templates:
+                - Smart Halter:
+                    - [Project Charter (Docs)](https://docs.google.com/document/u/0/d/14XNRwKzMf3D1lLIfkhZ0m5Oadi8s2TBdBwwvdRO3zTg/edit)
+                    - [Project Charter Details (Sheets)](https://docs.google.com/spreadsheets/d/1zrRuUJA2MXGuf2W8vRYD_bBBIZAOKVuyWRrk97leJ2w/edit?gid=434504498#gid=434504498)
+                - Rosmianto Freelance Kit: "\royyan\Work\Freelance IoT\Rosmianto Freelance Kit\"
+                - AIoT R&E
+                    - AIoT R&E's PDCA [Creation](https://docs.google.com/document/d/1kvL3F2g_0o4Bxi15775SHOs-D-qAKEI0J8Wcv5IlCdA/edit?tab=t.0), [Planning](https://docs.google.com/document/d/1x1oA9iDLjtMzWQ1-S0E8OipAP0dadG8cUhtPY7Ux7Kc/edit?tab=t.0), [Evaluation](https://docs.google.com/document/d/19dN7DOGdFelOsr0lnQB3uUub2Es6zN_YZSf5JFbK8NA/edit?tab=t.0)
+                    - [Stakeholder Management Strategy](https://docs.google.com/spreadsheets/d/1Q1IDEVN35l218PwPU40jW-pe_0K3vaBRaMc-LjhpoSE/edit?gid=0#gid=0)
+                    - [MPP RnE 2024](https://docs.google.com/spreadsheets/d/1dRpqozdlpwKkZtvSFVxK5jisZKTDnXqdtDeSIcgDwgc/edit?gid=63405761#gid=63405761)
+                    - [ARHO-167 (JIRA to GSheets)](https://docs.google.com/spreadsheets/d/1T6s16cfA0Bilc9m7inywVkJNsPXXaQGvM2MgIV65jvg/edit?gid=0#gid=0)
+                    - [People Council Value Breakdown](https://docs.google.com/spreadsheets/d/1gP1e6JkTMNa2YpCiEuGtHUfions0hswSjeVtdrfoVgg/edit?gid=0#gid=0)
         - Scrum & Extreme Programming (XP)
     - ### Hardware Development
         - Microcontroller & Components Picking; Schematics Design, PCB Development Iteration; Enclosure Design Iteration; Physical Scenario Testing;
@@ -44,7 +51,7 @@
         - Sensor Sample Rate
         - Sensor Accuracy Testing
     - Connectivity of choice (WiFi, BLE, LoRa, GSM, Satellite)
-       - Connectivity Configurations & Strategies (Mesh, Star Topology; Long Range, High Datarate; Amplification (dBm), Antenna Placement; Pricing; Legal Compliance;
+       - Connectivity Configurations & Strategies (Mesh, Star Topology; Long Range, High Datarate; Amplification (dBm), Antenna Placement; Pricing; Legal Compliance;)
     - Actuation & Control Planning
         - Control Mathematical Modelling
         - Model Based Development for control algorithm
@@ -92,6 +99,15 @@
 - ## Team Development
     - Software Engineering Knowledge Body
         - [SFIA & SWEBOK](https://sfia-online.org/en/tools-and-resources/bodies-of-knowledge/swebok-software-engineering-body-of-knowledge/swebok-sfia8-the-guide-to-the-software-engineering-body-of-knowledge)
+    - [Domain Capability Assessment](https://docs.google.com/spreadsheets/d/1vBnrJSWgMM24ju2gMH7M84C5Hwe6eGOEVMmIBD26Mt0/edit?gid=0#gid=0)
+    - PIP, PDP, [IDP](https://docs.google.com/document/d/1MJyuFsHiLy6xoPqQ1uLkhK56QjdqbPCwoDui40Xl6dQ/edit?tab=t.0#heading=h.gshbohzgj047)
+    - [Domain Raport](https://docs.google.com/spreadsheets/d/1jX2S0va9F-WMdRNcxUtA6E_8ata7yUkU9TFp2GKVlxA/edit?gid=1782361160#gid=1782361160), Individual Raport, [Raport List](https://docs.google.com/spreadsheets/d/1AU-DeybY8ufSADmjYSyha1_AiqOeGwGl8S79_YfS06c/edit?gid=0#gid=0)
+    - Skill Task
+        - [Senior Researcher & Firmware](https://docs.google.com/document/d/1PS3RXJXjhuI-xoGuFqA1-Dc9Lt2CsMOY3gqK22q7xXM/edit?tab=t.0)
+    - [Competency Matrix Zul](https://docs.google.com/spreadsheets/d/1YCGN_VWTRMlkqzzpYLzl1J0RpFkQ9H-KspYiHMaxNNo/edit?gid=1024327203#gid=1024327203)
+    - [Workshop RnE: Slack-bots, Project Submission, etc](https://docs.google.com/presentation/d/1_ieJXCiCVd-k69dBbT1OSJQPQLF9-QzzP0WzK1zRCKs/edit#slide=id.g285882932de_1_317)
+    - [OKR Guidelines](https://docs.google.com/presentation/d/1Mslu2HoPZqeWJZ0nntkQ9izRcT0DoBxakF_GOi8rOrE/edit#slide=id.g2a34d1d8bd9_0_1359)
+    - [Training Need Analysis](https://docs.google.com/presentation/d/1kY-VG6PELqrdo_-6ACxMtTqEj-Qf0AFUy3yQbRhpEnc/edit#slide=id.g25e788bad4c_3_0)
 
 - ## Problem Solving
     - ### Optimizing
