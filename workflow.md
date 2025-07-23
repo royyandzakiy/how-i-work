@@ -88,7 +88,10 @@
     - Development Tools
         - Environment Setup: Toolchain, SDK, Library
         - Technical docs: Engineering Requirement Document (ERD), Request for Comment (RFC), GitLab Issues, Whimsical
-        - Conventions: Commit Standards, Naming Conventions, Coding Conventions (MISRA-C)
+        - Conventions: [Commit Standards](https://www.conventionalcommits.org/), [Branching Conventions/Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), Naming Conventions, Coding Conventions (MISRA-C), [Semantic Versioning](https://semver.org/)
+            - [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+            - [Mozilla C++ Style Guide](https://firefox-source-docs.mozilla.org/code-quality/coding-style/coding_style_cpp.html)
+            - [LLVM C++ Style Guide](https://llvm.org/docs/CodingStandards.html)
         - Development Workflow: Scrum, Extreme Programming
         - Communication & Collaboration: VSCode Liveshare, Google Suite (GMeet, GDocs, GSlides, GDrive), Slack, JIRA
         - Cadence & People: Daily-Weekly-Monthly-Quarterly Cadences, Planning-Retro, Individual Development Plan (IDP), Performance Improvement Plan (PIP), Contracts
@@ -105,14 +108,14 @@
     - Software Engineering Knowledge Body
         - [SFIA & SWEBOK](https://sfia-online.org/en/tools-and-resources/bodies-of-knowledge/swebok-software-engineering-body-of-knowledge/swebok-sfia8-the-guide-to-the-software-engineering-body-of-knowledge)
     - [Domain Capability Assessment](https://docs.google.com/spreadsheets/d/1vBnrJSWgMM24ju2gMH7M84C5Hwe6eGOEVMmIBD26Mt0/edit?gid=0#gid=0)
-    - PIP, PDP, [IDP](https://docs.google.com/document/d/1MJyuFsHiLy6xoPqQ1uLkhK56QjdqbPCwoDui40Xl6dQ/edit?tab=t.0#heading=h.gshbohzgj047)
+    - [PIP Doc](https://docs.google.com/document/d/1c63sRomFismb7EYIakTEN5CslktE29UzXRqhVaZoLxI/edit?usp=sharing), [PIP Table](https://docs.google.com/spreadsheets/d/1EFAlfiBFvJlodgB-krCkwbODOrzoyIiTa3LlIB5PnOk/edit?usp=sharing), [PDP](https://docs.google.com/document/d/1WMR7lx9euj8NjciWBx1345vCfhiOpCVrDhF4kUYh1Tg/edit?tab=t.0#heading=h.bgvfb3sjo0d2), [IDP](https://docs.google.com/document/d/1MJyuFsHiLy6xoPqQ1uLkhK56QjdqbPCwoDui40Xl6dQ/edit?tab=t.0#heading=h.gshbohzgj047)
     - [Domain Raport](https://docs.google.com/spreadsheets/d/1jX2S0va9F-WMdRNcxUtA6E_8ata7yUkU9TFp2GKVlxA/edit?gid=1782361160#gid=1782361160), Individual Raport, [Raport List](https://docs.google.com/spreadsheets/d/1AU-DeybY8ufSADmjYSyha1_AiqOeGwGl8S79_YfS06c/edit?gid=0#gid=0)
     - Skill Task
-        - [Senior Researcher & Firmware](https://docs.google.com/document/d/1PS3RXJXjhuI-xoGuFqA1-Dc9Lt2CsMOY3gqK22q7xXM/edit?tab=t.0)
-    - [Competency Matrix Zul](https://docs.google.com/spreadsheets/d/1YCGN_VWTRMlkqzzpYLzl1J0RpFkQ9H-KspYiHMaxNNo/edit?gid=1024327203#gid=1024327203)
+        - [Hiring Skilltask - Senior Researcher & Firmware](https://docs.google.com/document/d/1PS3RXJXjhuI-xoGuFqA1-Dc9Lt2CsMOY3gqK22q7xXM/edit?tab=t.0)
+    - [Competency Matrix - Zul](https://docs.google.com/spreadsheets/d/1YCGN_VWTRMlkqzzpYLzl1J0RpFkQ9H-KspYiHMaxNNo/edit?gid=1024327203#gid=1024327203)
     - [Workshop RnE: Slack-bots, Project Submission, etc](https://docs.google.com/presentation/d/1_ieJXCiCVd-k69dBbT1OSJQPQLF9-QzzP0WzK1zRCKs/edit#slide=id.g285882932de_1_317)
-    - [OKR Guidelines](https://docs.google.com/presentation/d/1Mslu2HoPZqeWJZ0nntkQ9izRcT0DoBxakF_GOi8rOrE/edit#slide=id.g2a34d1d8bd9_0_1359)
-    - [Training Need Analysis](https://docs.google.com/presentation/d/1kY-VG6PELqrdo_-6ACxMtTqEj-Qf0AFUy3yQbRhpEnc/edit#slide=id.g25e788bad4c_3_0)
+    - [eFi - OKR Guidelines](https://docs.google.com/presentation/d/1Mslu2HoPZqeWJZ0nntkQ9izRcT0DoBxakF_GOi8rOrE/edit#slide=id.g2a34d1d8bd9_0_1359)
+    - [eFi - Training Need Analysis](https://docs.google.com/presentation/d/1kY-VG6PELqrdo_-6ACxMtTqEj-Qf0AFUy3yQbRhpEnc/edit#slide=id.g25e788bad4c_3_0)
 
 - ## Problem Solving
     - ### Optimizing
