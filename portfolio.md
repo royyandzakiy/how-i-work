@@ -9,7 +9,7 @@
         - [royyandzakiy/clasp-gdocs-gsheets](https://github.com/royyandzakiy/clasp-gdocs-gsheets)
     - Documenting: Doxygen
         - [royyandzakiy/doxy-helloworld](https://github.com/royyandzakiy/doxy-helloworld)
-    - Debugging: GDB
+    - Debugging: Task Tracing
         - …
 - ## Getting Started Guides
     - cmake
@@ -29,24 +29,9 @@
     - gazebo: [royyandzakiy/differential_drive_gazebo_ws](https://github.com/royyandzakiy/differential_drive_gazebo_ws)
     - ros2: [royyandzakiy/ws_ros2_opencv](https://github.com/royyandzakiy/ws_ros2_opencv)
     - memfault: (royyandzakiy/memfault-bare-minimum)(https://github.com/royyandzakiy/memfault-bare-minimum)
-- ## Explorations
-    - [royyandzakiy/esp32-baremetal-rtos](https://github.com/royyandzakiy/esp32-baremetal-rtos)
-    - [royyandzakiy/ardupilot_mavlink_fastapi](https://github.com/royyandzakiy/ardupilot_mavlink_fastapi)
-    - [royyandzakiy/esp32-freertos-examples](https://github.com/royyandzakiy/esp32-freertos-examples)
-    - [royyandzakiy/stm32-flightcontroller](https://github.com/royyandzakiy/stm32-flightcontroller)
-    - esp32cam:
-        - [royyandzakiy/esp32cam-stream-yolo-pio](https://github.com/royyandzakiy/esp32cam-stream-yolo-pio)
-        - [royyandzakiy/esp32cam-capture](https://github.com/royyandzakiy/esp32cam-capture)
-    - [royyandzakiy/LoRa-RHMesh](https://github.com/royyandzakiy/LoRa-RHMesh)
-    - [royyandzakiy/game_dungeon_simple](https://github.com/royyandzakiy/game_dungeon_simple)
-    - [royyandzakiy/rf_433](https://github.com/royyandzakiy/rf_433)
-    - [royyandzakiy/RtosTaskChecker](https://github.com/royyandzakiy/RtosTaskChecker)
-    - [royyandzakiy/mqtt-tinygsm-wifi](https://github.com/royyandzakiy/mqtt-tinygsm-wifi)
-    - [royyandzakiy/shofiyaroyyan](https://github.com/royyandzakiy/shofiyaroyyan)
-    - [royyandzakiy/zephyr-ble-service-custom](https://github.com/royyandzakiy/zephyr-ble-service-custom)
-    - nextjs:
-        - [royyandzakiy/royyan-blog-nextjs](https://github.com/royyandzakiy/royyan-blog-nextjs)
-        - [royyandzakiy/next-chakra-personal-website](https://github.com/royyandzakiy/next-chakra-personal-website)
+- ## Trainings
+    - [royyandzakiy/esp-freertos-tutorial](https://github.com/royyandzakiy/esp-freertos-tutorial)
+    - [royyandzakiy/shiftacademy-iot-course](https://github.com/royyandzakiy/shiftacademy-iot-course)
 - ## Work
     - ### LMesh
         - `Nexus Device` Firmware: MCU to manage sensor readings from ADS sensors (8-24-32 channels) for Brain Computer Interface, sending data and communicating via either BLE, USB Serial. Developed using Nordic Connect SDK (NCS) / Zephyr for Nordic, with full testing suite (Unit Tests, System Tests, CI).
@@ -54,13 +39,16 @@
         - `Nexus Test Tool` Windows Desktop App: App built on top of the Nexus Dongle DLL to give a visual experience when interacting with Nexus Devices. Developed based on .NET (C#).
         - `Door Handle Sensor` Firmware: Controlling an auto door locking mechanism based on proximity sensing.
         - `Carelock` Firmware: Controlling the Brondool electric doorlock. Developed using Nordic Connect SDK (NCS) / Zephyr for Nordic.
+        - [royyandzakiy/zephyr-ble-service-custom](https://github.com/royyandzakiy/zephyr-ble-service-custom)
     - ### Aquifera
         - [royyandzakiy/forestbox](https://github.com/royyandzakiy/forestbox)
         - [kemalrizky/waterbox-dev](https://github.com/kemalrizky/waterbox-dev)
         - [royyandzakiy/forestwatch](https://github.com/royyandzakiy/forestwatch)
         - [royyandzakiy/heartrate-kit](https://github.com/royyandzakiy/heartrate-kit)
         - [royyandzakiy/aquifera-waterflow-sms](https://github.com/royyandzakiy/aquifera-waterflow-sms)
-    - ## eFishery
+    - ### Mantis Drone FTMD ITB
+        - [royyandzakiy/ardupilot_mavlink_fastapi](https://github.com/royyandzakiy/ardupilot_mavlink_fastapi)
+    - ### eFishery
         - `eFishery Smart Feeder` Firmware
         - `Fish Sensor` Firmware (nRF based)
         - [royyandzakiy/loadcell-firmware](https://github.com/royyandzakiy/loadcell-firmware)
@@ -79,9 +67,6 @@
             - [Employee Raport - Autogenerator](https://script.google.com/home/projects/1OlloDidkeApIAQCQav2_zSpmU62La9upsQO61DpwQisElx8RySEEPNLp/edit)
                 - [OKR Employee Raport - Template](https://docs.google.com/spreadsheets/d/1Ku5QjZwINm5q4QvIWRCYgXEYn9vFL_-PGf8fxqfj8hY/edit?gid=1691499781#gid=1691499781)
             - [Master Raport Dashboard - Autogenerator](https://script.google.com/home/projects/1Cjtb0GRX_pX_lwkxqnzuMbbR6-3Us9O0n-ULu1fIqQEBFppreI1iHZIR/edit)
-    - ### Trainings
-        - [royyandzakiy/esp-freertos-tutorial](https://github.com/royyandzakiy/esp-freertos-tutorial)
-        - [royyandzakiy/shiftacademy-iot-course](https://github.com/royyandzakiy/shiftacademy-iot-course)
     - ### SBM-Space
         - [royyandzakiy/research-itb](https://github.com/royyandzakiy/research-itb)
     - ### Self
@@ -90,6 +75,7 @@
         - [royyandzakiy/shofiyaroyyan](https://github.com/royyandzakiy/shofiyaroyyan)
         - [Tale of Two Birds Narrative](https://docs.google.com/document/d/1w-JOrwFG25uwISggV9Jd7aHV47XvYyP93nXWiyzrw4c/edit?tab=t.0)
     - ### ITB
+        - [royyandzakiy/LoRa-RHMesh](https://github.com/royyandzakiy/LoRa-RHMesh)
         - [royyandzakiy/TheSentinelWatcher](https://github.com/royyandzakiy/TheSentinelWatcher)
         - [royyandzakiy/RocketManiaGame](https://github.com/royyandzakiy/RocketManiaGame)
         - [royyandzakiy/e-canteen](https://github.com/royyandzakiy/e-canteen)
@@ -98,3 +84,16 @@
         - [royyandzakiy/android-sound-recorder-amplitude-meter](https://github.com/royyandzakiy/android-sound-recorder-amplitude-meter)
         - [royyandzakiy/pasti-bps](https://github.com/royyandzakiy/pasti-bps)
         - [royyandzakiy/ojek-online](https://github.com/royyandzakiy/ojek-online)
+- ## Misc
+    - [royyandzakiy/esp32-baremetal-rtos](https://github.com/royyandzakiy/esp32-baremetal-rtos)
+    - [royyandzakiy/stm32-flightcontroller](https://github.com/royyandzakiy/stm32-flightcontroller)
+    - esp32cam:
+        - [royyandzakiy/esp32cam-stream-yolo-pio](https://github.com/royyandzakiy/esp32cam-stream-yolo-pio)
+        - [royyandzakiy/esp32cam-capture](https://github.com/royyandzakiy/esp32cam-capture)
+    - [royyandzakiy/game_dungeon_simple](https://github.com/royyandzakiy/game_dungeon_simple)
+    - [royyandzakiy/rf_433](https://github.com/royyandzakiy/rf_433)
+    - [royyandzakiy/RtosTaskChecker](https://github.com/royyandzakiy/RtosTaskChecker)
+    - [royyandzakiy/mqtt-tinygsm-wifi](https://github.com/royyandzakiy/mqtt-tinygsm-wifi)
+    - nextjs:
+        - [royyandzakiy/royyan-blog-nextjs](https://github.com/royyandzakiy/royyan-blog-nextjs)
+        - [royyandzakiy/next-chakra-personal-website](https://github.com/royyandzakiy/next-chakra-personal-website)
