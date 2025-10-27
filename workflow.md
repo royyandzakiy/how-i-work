@@ -30,13 +30,13 @@
         - Data Planning
             - Type, Size, Occurence
             - Safe Guard
-        - Hardware Features Diagram, Software Components Diagram, Data Flow Diagram (DFD)
+        - Hardware Features Diagram, Software Components Diagram, Data Flow Diagram (DFD) (source: _Embedded Software Design by Jacob Beningo_)
         - Critical Components: Flow Diagram, Sequence Diagram
         - Quality Metrics:
             - General Software Quality Metrics: Maintainability, Usability, Availability, Portability, Interoperability, Testability
             - Embedded Software Quality Metrics: Performance vs Power, Size vs Feature-Rich, Reliability & Redundancy vs Complexity, Cost vs Feature-Rich, Scalability/Modularity vs Simplicity, Realtime-ness vs General Purpose
             - Source:
-                - _Software Architecture Handbook_
+                - _Software Architects Handbook by Josepth Ingeno_
                 - [hallucinogen/engineering-leadership](https://github.com/hallucinogen/engineering-leadership)
                 - [ISO25000 Standard](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
         - Architectural Patterns & [Design Patterns](https://refactoring.guru/design-patterns) Preferences
@@ -74,12 +74,12 @@
 - ## Generic Middlewhere Development
     - RTOS Task Planning
         - Task Design Planning
-            - Period, Response Time, Priority, Synchronization
-            - Task DFD
+            - Period, Response Time, Priority
+            - Task Data Flow Diagram: Synchronizations (Semaphores, Mutexes), Inter-process Communications
+        - Scheduling Algorithm (Earliest Deadline First, Fixed-Priority Preemptive (Rate-Monotonic), Round Robin)
+        - Watchdog
+        - Execution Time Analysis (SEGGER SystemView, Percepio Tracealyzer/View)
             - Rate Monotonic Analysis (RMA)
-        - Scheduling Algorithm (EDF, RM, RR)
-        - Watchdog Verification
-        - Verify Runtime Execution (SEGGER SystemView)
     - Cloud & Communications
         - Mosquitto, InfluxDB, NodeRED, Grafana (MING)
 
