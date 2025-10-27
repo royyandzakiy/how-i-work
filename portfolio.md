@@ -11,24 +11,26 @@
         - [royyandzakiy/doxy-helloworld](https://github.com/royyandzakiy/doxy-helloworld)
     - Debugging: Task Tracing
         - …
-- ## Getting Started Guides
+- ## Getting Started Guides & Boilerplates
     - cmake
+        - cmake: [royyandzakiy/cmake-project-template](https://github.com/royyandzakiy/cmake-project-template)
         - gtest: [royyandzakiy/cmake-gtest-boilerplate](https://github.com/royyandzakiy/cmake-gtest-boilerplate)
-    - winrt component: 
-        - same .sln: [royyandzakiy/ThermometerWRC](https://github.com/royyandzakiy/ThermometerWRC)
-    - zephyr: [royyandzakiy/zephyr-getting-started](https://github.com/royyandzakiy/zephyr-getting-started)
-    - qml: [royyandzakiy/mantis-gcs](https://github.com/royyandzakiy/mantis-gcs)
     - esp idf: [royyandzakiy/espidf-boilerplate](https://github.com/royyandzakiy/espidf-boilerplate)
+    - zephyr: [royyandzakiy/zephyr-getting-started](https://github.com/royyandzakiy/zephyr-getting-started)
     - pio
         - gtest: [royyandzakiy/unittesting-espidf-pio-gtest](https://github.com/royyandzakiy/unittesting-espidf-pio-gtest)
         - unity: [royyandzakiy/unittesting-arduino-pio-unity](https://github.com/royyandzakiy/unittesting-arduino-pio-unity)
         - ra08h: [kemalrizky/ra08h-test](https://github.com/kemalrizky/ra08h-test)
+    - winrt component: 
+        - [royyandzakiy/ThermometerWRC](https://github.com/royyandzakiy/ThermometerWRC) \<WIP>
+        - [royyandzakiy/winrt-projection-console-boilerplate](https://github.com/royyandzakiy/winrt-projection-console-boilerplate) \<WIP>
+    - qml: [royyandzakiy/mantis-gcs](https://github.com/royyandzakiy/mantis-gcs)
     - clasp
         - [royyandzakiy/clasp-boilerplate](https://github.com/royyandzakiy/clasp-boilerplate)
     - cubemx: [royyandzakiy/stm32-blink-cubemx](https://github.com/royyandzakiy/stm32-blink-cubemx)
     - gazebo: [royyandzakiy/differential_drive_gazebo_ws](https://github.com/royyandzakiy/differential_drive_gazebo_ws)
     - ros2: [royyandzakiy/ws_ros2_opencv](https://github.com/royyandzakiy/ws_ros2_opencv)
-    - memfault: (royyandzakiy/memfault-bare-minimum)(https://github.com/royyandzakiy/memfault-bare-minimum)
+    - memfault: [royyandzakiy/memfault-bare-minimum](https://github.com/royyandzakiy/memfault-bare-minimum)
 - ## Trainings
     - [royyandzakiy/esp-freertos-tutorial](https://github.com/royyandzakiy/esp-freertos-tutorial)
     - [royyandzakiy/shiftacademy-iot-course](https://github.com/royyandzakiy/shiftacademy-iot-course)
