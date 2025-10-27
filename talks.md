@@ -25,6 +25,7 @@
 - [Teknologi dalam Akses Pendidikan: Kemudahan atau Kesulitan?](https://drive.google.com/file/d/1fcuFOkcT4NgAqcVKlN1LpO8_G3fEvaez/view?usp=sharing)
 
 ## Technical
+- [ESP FreeRTOS Tutorial](https://github.com/royyandzakiy/esp-freertos-tutorial)
 - [GAB 2023 SG - Journey to Aquaculture Intelligence](https://docs.google.com/presentation/d/1Gz_sOcX8zNkSst5UaESUoas63hhdrnAetND1AlZ3H0U/edit#slide=id.p1)
 - [IoT for Dummies](https://docs.google.com/presentation/d/1WDwb3iUrFKsV7BKUg3qcfv9UtCRrYmETVbd0lcBNJkU/edit#slide=id.gfd6218c1c2_0_9)
 - [Dzafir IoT Kit (GDrive)](https://drive.google.com/drive/folders/1oiqPNfwPO2W9I_imb3yst7XLfvVeSYBz?usp=drive_link)

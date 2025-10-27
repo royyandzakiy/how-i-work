@@ -60,7 +60,7 @@
         - [royyandzakiy/forestwatch](https://github.com/royyandzakiy/forestwatch)
         - [royyandzakiy/heartrate-kit](https://github.com/royyandzakiy/heartrate-kit)
         - [royyandzakiy/aquifera-waterflow-sms](https://github.com/royyandzakiy/aquifera-waterflow-sms)
-    - ## Efishery
+    - ## eFishery
         - eFishery Smart Feeder
         - fish-sensor-nrf
         - employee-raport-autogenerator
@@ -81,7 +81,8 @@
             - [Employee Raport - Autogenerator](https://script.google.com/home/projects/1OlloDidkeApIAQCQav2_zSpmU62La9upsQO61DpwQisElx8RySEEPNLp/edit)
                 - [OKR Employee Raport - Template](https://docs.google.com/spreadsheets/d/1Ku5QjZwINm5q4QvIWRCYgXEYn9vFL_-PGf8fxqfj8hY/edit?gid=1691499781#gid=1691499781)
             - [Master Raport Dashboard - Autogenerator](https://script.google.com/home/projects/1Cjtb0GRX_pX_lwkxqnzuMbbR6-3Us9O0n-ULu1fIqQEBFppreI1iHZIR/edit)
-    - ### Shiftacademy
+    - ### Trainings
+        - [royyandzakiy/esp-freertos-tutorial](https://github.com/royyandzakiy/esp-freertos-tutorial)
         - [royyandzakiy/shiftacademy-iot-course](https://github.com/royyandzakiy/shiftacademy-iot-course)
     - ### SBM-Space
         - [royyandzakiy/research-itb](https://github.com/royyandzakiy/research-itb)
