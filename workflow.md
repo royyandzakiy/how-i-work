@@ -26,13 +26,17 @@
     - ### Hardware Development
         - Microcontroller & Components Picking; Schematics Design, PCB Development Iteration; Enclosure Design Iteration; Physical Scenario Testing;
     - ### Software Architecture Design
-        - C4 Diagram
+        - Design
+            - C4 Diagram
+            - Hardware Features Diagram, Software Components Diagram, Data Flow Diagram (DFD) (source: _Embedded Software Design by Jacob Beningo_)
+            - Critical Components: Flow Diagram, Sequence Diagram
         - Data Planning
-            - Type, Size, Occurence
-            - Safe Guard
-        - Hardware Features Diagram, Software Components Diagram, Data Flow Diagram (DFD) (source: _Embedded Software Design by Jacob Beningo_)
-        - Critical Components: Flow Diagram, Sequence Diagram
-        - Quality Metrics:
+            - Data Type, Size, Datarate
+            - Data structuring (Batching, Packing, Marshalling)
+            - Reliability requirements (data/packet loss policy), Safe Guarding strategies
+            - Data Storage policies, Redundancy strategies (offline first, non-volatile duplicates)
+            - Data Security policies, Cryptography (Hashing, Serializing)
+        - Quality Metrics
             - General Software Quality Metrics: Maintainability, Usability, Availability, Portability, Interoperability, Testability
             - Embedded Software Quality Metrics: Performance vs Power, Size vs Feature-Rich, Reliability & Redundancy vs Complexity, Cost vs Feature-Rich, Scalability/Modularity vs Simplicity, Realtime-ness vs General Purpose
             - Source:
@@ -41,9 +45,9 @@
                 - [ISO25000 Standard](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
         - Architectural Patterns & [Design Patterns](https://refactoring.guru/design-patterns) Preferences
             - [Refactoring Strategies - refactoring guru](https://refactoring.guru/refactoring)
-        - Storage & Memory Strategy: Flash size, Volatile variables, Array / Stack size
+        - Storage Peripheral & Memory Strategy: Flash size, Volatile variables, Array / Stack size
         - Systems Engineering
-            - System Architecture: Model Based Systems-Engineering, Simulation
+            - System Architecture: Model Based Systems-Engineering, Model Simulation
     - ### Development
         - Exploration & Familiarization with Tools & Environment
             - PoC, Rapid Prototyping, Official Documentation, Tutorial/Courses
