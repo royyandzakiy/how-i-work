@@ -61,10 +61,8 @@
         - [royyandzakiy/heartrate-kit](https://github.com/royyandzakiy/heartrate-kit)
         - [royyandzakiy/aquifera-waterflow-sms](https://github.com/royyandzakiy/aquifera-waterflow-sms)
     - ## eFishery
-        - eFishery Smart Feeder
-        - fish-sensor-nrf
-        - employee-raport-autogenerator
-        - individual-contribution-report-generator
+        - `eFishery Smart Feeder` Firmware
+        - `Fish Sensor` Firmware (nRF based)
         - [royyandzakiy/loadcell-firmware](https://github.com/royyandzakiy/loadcell-firmware)
         - [royyandzakiy/motor-testbed](https://github.com/royyandzakiy/motor-testbed)
         - [royyandzakiy/xiaomi-scale](https://github.com/royyandzakiy/xiaomi-scale)
@@ -96,7 +94,6 @@
         - [royyandzakiy/RocketManiaGame](https://github.com/royyandzakiy/RocketManiaGame)
         - [royyandzakiy/e-canteen](https://github.com/royyandzakiy/e-canteen)
         - [royyandzakiy/presensi-km-itb](https://github.com/royyandzakiy/presensi-km-itb)
-        - [adafruit/RadioHead](https://github.com/adafruit/RadioHead)
         - [royyandzakiy/TheSentinelWatcher](https://github.com/royyandzakiy/TheSentinelWatcher)
         - [royyandzakiy/android-sound-recorder-amplitude-meter](https://github.com/royyandzakiy/android-sound-recorder-amplitude-meter)
         - [royyandzakiy/pasti-bps](https://github.com/royyandzakiy/pasti-bps)
