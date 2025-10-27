@@ -50,7 +50,7 @@
 - ## Work
     - ### LMesh
         - `Nexus Device` Firmware: MCU to manage sensor readings from ADS sensors (8-24-32 channels) for Brain Computer Interface, sending data and communicating via either BLE, USB Serial. Developed using Nordic Connect SDK (NCS) / Zephyr for Nordic, with full testing suite (Unit Tests, System Tests, CI).
-        - `Nexus Dongle` DLL (Library) & Windows Console Application: Windows Native library (C++) to enable a Windows machine to interact with Nexus Devices. Engaging with high datarate communications via BLE. Developing mainly via Visual Studio, utilizing Windows SDK, Windows Drivers, Windows low level APIs, Windows Runtime for C++ (WinRT C++). Implements full testing suite (WIP), auto generated Documentation (Doxygen).
+        - `Nexus Dongle` DLL (Library) & Windows Console Application: Windows Native library (C++) to enable a Windows machine to interact with Nexus Devices. Engaging with high datarate communications via BLE. Developing mainly via Visual Studio, utilizing Windows SDK, Windows Drivers, Windows low level APIs, Windows Runtime for C++ (WinRT C++). Implements full testing suite (WIP), robust build system (CMake, MSBuild, vcpkg) auto generated Documentation (Doxygen).
         - `Nexus Test Tool` Windows Desktop App: App built on top of the Nexus Dongle DLL to give a visual experience when interacting with Nexus Devices. Developed based on .NET (C#).
         - `Door Handle Sensor` Firmware: Controlling an auto door locking mechanism based on proximity sensing.
         - `Carelock` Firmware: Controlling the Brondool electric doorlock. Developed using Nordic Connect SDK (NCS) / Zephyr for Nordic.
