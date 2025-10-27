@@ -48,6 +48,12 @@
         - [royyandzakiy/royyan-blog-nextjs](https://github.com/royyandzakiy/royyan-blog-nextjs)
         - [royyandzakiy/next-chakra-personal-website](https://github.com/royyandzakiy/next-chakra-personal-website)
 - ## Work
+    - ### LMesh
+        - `Nexus Device` Firmware: MCU to manage sensor readings from ADS sensors (8-24-32 channels) for Brain Computer Interface, sending data and communicating via either BLE, USB Serial. Developed using Nordic Connect SDK (NCS) / Zephyr for Nordic, with full testing suite (Unit Tests, System Tests, CI).
+        - `Nexus Dongle` DLL & Windows Console Application: Windows Native library (C++) to enable a Windows machine to interact with Nexus Devices. Engaging with high datarate communications via BLE. Developing mainly with Windows SDK, Windows Drivers, Windows low level APIs, Windows Runtime for C++ (WinRT C++).
+        - `Nexus Test Tool` Windows Desktop App: App built on top of the Nexus Dongle DLL to give a visual experience when interacting with Nexus Devices. Developed based on .NET (C#).
+        - `Door Handle Sensor` Firmware: Controlling an auto door locking mechanism based on proximity sensing.
+        - `Carelock` Firmware: Controlling the Brondool electric doorlock. Developed using Nordic Connect SDK (NCS) / Zephyr for Nordic.
     - ### Aquifera
         - [royyandzakiy/forestbox](https://github.com/royyandzakiy/forestbox)
         - [kemalrizky/waterbox-dev](https://github.com/kemalrizky/waterbox-dev)
