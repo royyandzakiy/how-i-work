@@ -24,6 +24,7 @@
     - Desktop
         - `cmake`
             - `cmake`: [royyandzakiy/cmake-project-template](https://github.com/royyandzakiy/cmake-project-template)
+            - `cmake` minimum: [royyandzakiy/cmake-project-template-minim](https://github.com/royyandzakiy/cmake-project-template-minim)
             - `gtest`: [royyandzakiy/cmake-gtest-boilerplate](https://github.com/royyandzakiy/cmake-gtest-boilerplate)
         - `winrt` component: 
             - [royyandzakiy/winrt-projection-console-boilerplate](https://github.com/royyandzakiy/winrt-projection-console-boilerplate)
