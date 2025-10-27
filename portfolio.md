@@ -18,7 +18,7 @@
         - `pio`
             - `gtest`: [royyandzakiy/unittesting-espidf-pio-gtest](https://github.com/royyandzakiy/unittesting-espidf-pio-gtest)
             - `unity`: [royyandzakiy/unittesting-arduino-pio-unity](https://github.com/royyandzakiy/unittesting-arduino-pio-unity)
-            - `ra08h`: [kemalrizky/ra08h-test](https://github.com/kemalrizky/ra08h-test)
+            - `asr6601`: [kemalrizky/ra08h-test](https://github.com/kemalrizky/ra08h-test)
         - `memfault`: [royyandzakiy/memfault-bare-minimum](https://github.com/royyandzakiy/memfault-bare-minimum)
         - `cubemx`: [royyandzakiy/stm32-blink-cubemx](https://github.com/royyandzakiy/stm32-blink-cubemx)
     - Desktop
