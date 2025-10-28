@@ -14,10 +14,12 @@
 - ## Getting Started Guides & Boilerplates
     - Embedded
         - `esp-idf`: [royyandzakiy/espidf-boilerplate](https://github.com/royyandzakiy/espidf-boilerplate)
+            - `esp-idf` minimum: [royyandzakiy/esp-idf-bare-minimum](https://github.com/royyandzakiy/esp-idf-bare-minimum)
+            - pytest, clang-format: [royyandzakiy/esp-idf-hello-pytest](https://github.com/royyandzakiy/esp-idf-hello-pytest)
+            - custom components: [royyandzakiy/idf-component-cmake](https://github.com/royyandzakiy/idf-component-cmake)
         - `zephyr`: [royyandzakiy/zephyr-getting-started](https://github.com/royyandzakiy/zephyr-getting-started)
-            - `SEGGER SystemView`: [royyandzakiy/zephyr-threads-systemview](https://github.com/royyandzakiy/zephyr-threads-systemview)
             - `Zephyr App Event Manager`: [royyandzakiy/ncs-app-event-manager](https://github.com/royyandzakiy/ncs-app-event-manager)
-            - [royyandzakiy/zephyr-display-lvgl-imu](https://github.com/royyandzakiy/zephyr-display-lvgl-imu)
+            - `SEGGER SystemView`: [royyandzakiy/zephyr-threads-systemview](https://github.com/royyandzakiy/zephyr-threads-systemview)
         - `pio`
             - `gtest`: [royyandzakiy/unittesting-espidf-pio-gtest](https://github.com/royyandzakiy/unittesting-espidf-pio-gtest)
             - `unity`: [royyandzakiy/unittesting-arduino-pio-unity](https://github.com/royyandzakiy/unittesting-arduino-pio-unity)
@@ -98,6 +100,7 @@
         - [royyandzakiy/ojek-online](https://github.com/royyandzakiy/ojek-online)
 - ## Misc
     - [royyandzakiy/dsa](https://github.com/royyandzakiy/dsa)
+    - [royyandzakiy/zephyr-display-lvgl-imu](https://github.com/royyandzakiy/zephyr-display-lvgl-imu)
     - [royyandzakiy/esp32-baremetal-rtos](https://github.com/royyandzakiy/esp32-baremetal-rtos) \<WIP>
     - [royyandzakiy/stm32-flightcontroller](https://github.com/royyandzakiy/stm32-flightcontroller) \<WIP>
     - [royyandzakiy/nanopb-esp32](https://github.com/royyandzakiy/nanopb-esp32)
