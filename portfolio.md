@@ -15,6 +15,9 @@
     - Embedded
         - `esp-idf`: [royyandzakiy/espidf-boilerplate](https://github.com/royyandzakiy/espidf-boilerplate)
         - `zephyr`: [royyandzakiy/zephyr-getting-started](https://github.com/royyandzakiy/zephyr-getting-started)
+            - `SEGGER SystemView`: [royyandzakiy/zephyr-threads-systemview](https://github.com/royyandzakiy/zephyr-threads-systemview)
+            - `Zephyr App Event Manager`: [royyandzakiy/ncs-app-event-manager](https://github.com/royyandzakiy/ncs-app-event-manager)
+            - [royyandzakiy/zephyr-display-lvgl-imu](https://github.com/royyandzakiy/zephyr-display-lvgl-imu)
         - `pio`
             - `gtest`: [royyandzakiy/unittesting-espidf-pio-gtest](https://github.com/royyandzakiy/unittesting-espidf-pio-gtest)
             - `unity`: [royyandzakiy/unittesting-arduino-pio-unity](https://github.com/royyandzakiy/unittesting-arduino-pio-unity)
@@ -54,6 +57,8 @@
         - [royyandzakiy/heartrate-kit](https://github.com/royyandzakiy/heartrate-kit)
         - [royyandzakiy/aquifera-waterflow-sms](https://github.com/royyandzakiy/aquifera-waterflow-sms)
     - ### Mantis Drone FTMD ITB
+        - [royyandzakiy/mantis-gcs](https://github.com/royyandzakiy/mantis-gcs)
+        - [royyandzakiy/mavlink-waypoint-generator](https://github.com/royyandzakiy/mavlink-waypoint-generator)
         - [royyandzakiy/ardupilot_mavlink_fastapi](https://github.com/royyandzakiy/ardupilot_mavlink_fastapi)
     - ### eFishery
         - `eFishery Smart Feeder` Firmware
@@ -92,8 +97,10 @@
         - [royyandzakiy/pasti-bps](https://github.com/royyandzakiy/pasti-bps)
         - [royyandzakiy/ojek-online](https://github.com/royyandzakiy/ojek-online)
 - ## Misc
+    - [royyandzakiy/dsa](https://github.com/royyandzakiy/dsa)
     - [royyandzakiy/esp32-baremetal-rtos](https://github.com/royyandzakiy/esp32-baremetal-rtos) \<WIP>
     - [royyandzakiy/stm32-flightcontroller](https://github.com/royyandzakiy/stm32-flightcontroller) \<WIP>
+    - [royyandzakiy/nanopb-esp32](https://github.com/royyandzakiy/nanopb-esp32)
     - esp32cam:
         - [royyandzakiy/esp32cam-stream-yolo-pio](https://github.com/royyandzakiy/esp32cam-stream-yolo-pio)
         - [royyandzakiy/esp32cam-capture](https://github.com/royyandzakiy/esp32cam-capture)

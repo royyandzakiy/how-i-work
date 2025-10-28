@@ -1,3 +1,8 @@
+# Training
+- [ESP FreeRTOS Tutorial Series](https://github.com/royyandzakiy/esp-freertos-tutorial)
+- [Dzafir IoT Kit (GDrive)](https://drive.google.com/drive/folders/1oiqPNfwPO2W9I_imb3yst7XLfvVeSYBz?usp=drive_link)
+- [Shiftacademy IotT Course](https://github.com/royyandzakiy/shiftacademy-iot-course)
+
 # Talks
 ## Self Awareness & Actualization
 - [How to U - A Guide to Being Self Aware and to Plan Life](https://docs.google.com/presentation/d/1D7a-iliP50DHsDPUIQVzKeTDWwlv0_WPS4VN0sVp2qk/edit#slide=id.g2a96e9ab310_0_52)
@@ -25,11 +30,10 @@
 - [Teknologi dalam Akses Pendidikan: Kemudahan atau Kesulitan?](https://drive.google.com/file/d/1fcuFOkcT4NgAqcVKlN1LpO8_G3fEvaez/view?usp=sharing)
 
 ## Technical
-- [ESP FreeRTOS Tutorial](https://github.com/royyandzakiy/esp-freertos-tutorial)
 - [GAB 2023 SG - Journey to Aquaculture Intelligence](https://docs.google.com/presentation/d/1Gz_sOcX8zNkSst5UaESUoas63hhdrnAetND1AlZ3H0U/edit#slide=id.p1)
 - [IoT for Dummies](https://docs.google.com/presentation/d/1WDwb3iUrFKsV7BKUg3qcfv9UtCRrYmETVbd0lcBNJkU/edit#slide=id.gfd6218c1c2_0_9)
-- [Dzafir IoT Kit (GDrive)](https://drive.google.com/drive/folders/1oiqPNfwPO2W9I_imb3yst7XLfvVeSYBz?usp=drive_link)
 - [eFishery Drones Workshop - Intro](https://docs.google.com/presentation/d/1x0iZS6GYLlQd4Cr9fKzmX0mmjLXScSZttISEpOaMUL8/edit#slide=id.g12de3fbf86f_0_545)
+- [IPB - Teknologi Budidaya Berbasis AIoT - Karir dan Etika Ilmu Komputer (KOM1305)](https://docs.google.com/presentation/d/12a08WXFfVqDvR8ned3B6okymbPfukO0dl5oTxakRE1U)
 
 ## Work
 - ### eFishery
