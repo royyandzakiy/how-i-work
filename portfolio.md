@@ -28,9 +28,10 @@
         - `cubemx`: [royyandzakiy/stm32-blink-cubemx](https://github.com/royyandzakiy/stm32-blink-cubemx)
     - Desktop
         - `cmake`
-            - `cmake`: [royyandzakiy/cmake-project-template](https://github.com/royyandzakiy/cmake-project-template)
-            - `cmake` minimum: [royyandzakiy/cmake-project-template-minim](https://github.com/royyandzakiy/cmake-project-template-minim)
-            - `gtest`: [royyandzakiy/cmake-gtest-boilerplate](https://github.com/royyandzakiy/cmake-gtest-boilerplate)
+            - `Windows Development Template` (cmake, windows, vcpkg, winrt, jenkins): [royyandzakiy/windows-cpp-template](https://github.com/royyandzakiy/windows-cpp-template)
+                - `Minimum Template`: [royyandzakiy/cmake-project-template-minim](https://github.com/royyandzakiy/cmake-project-template-minim)
+            - `Linux Development Template` (cmake, linux, conan, devcontainer, github actions): TBD
+                - `gtest`, pytest, github actions: [royyandzakiy/cmake-gtest-boilerplate](https://github.com/royyandzakiy/cmake-gtest-boilerplate)
         - `winrt` component: 
             - [royyandzakiy/winrt-projection-console-boilerplate](https://github.com/royyandzakiy/winrt-projection-console-boilerplate)
             - [royyandzakiy/ThermometerWRC](https://github.com/royyandzakiy/ThermometerWRC)
@@ -41,6 +42,14 @@
     - Robotics
         - `gazebo`: [royyandzakiy/differential_drive_gazebo_ws](https://github.com/royyandzakiy/differential_drive_gazebo_ws)
         - `ros2`: [royyandzakiy/ws_ros2_opencv](https://github.com/royyandzakiy/ws_ros2_opencv)
+    - Testing
+        - [royyandzakiy/hello-system-test-pytest](https://github.com/royyandzakiy/hello-system-test-pytest)
+        - Static Analyzers
+        - Fuzz Testing
+    - Documentation
+        - Doxygen
+        - Sphynx
+
 - ## Trainings
     - [royyandzakiy/esp-freertos-tutorial](https://github.com/royyandzakiy/esp-freertos-tutorial)
     - [royyandzakiy/shiftacademy-iot-course](https://github.com/royyandzakiy/shiftacademy-iot-course)
