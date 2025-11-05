@@ -1,55 +1,4 @@
 # Projects Portfolio
-- ## Software Engineering
-    - Workflow
-        - [royyandzakiy/how-i-work](https://github.com/royyandzakiy/how-i-work/blob/master/WORKFLOW.md)
-    - Architecting
-        - [royyandzakiy/multisensor-station](https://github.com/royyandzakiy/multisensor-station) \<WIP>
-    - Unit Tests & TDD
-        - [royyandzakiy/cmake-gtest-boilerplate](https://github.com/royyandzakiy/cmake-gtest-boilerplate)
-        - [royyandzakiy/clasp-gdocs-gsheets](https://github.com/royyandzakiy/clasp-gdocs-gsheets)
-    - Documenting: Doxygen
-        - [royyandzakiy/doxy-helloworld](https://github.com/royyandzakiy/doxy-helloworld)
-    - Debugging: Task Tracing
-        - …
-- ## Getting Started Guides & Boilerplates
-    - Embedded
-        - `esp-idf`: [royyandzakiy/espidf-boilerplate](https://github.com/royyandzakiy/espidf-boilerplate)
-            - `esp-idf` minimum: [royyandzakiy/esp-idf-bare-minimum](https://github.com/royyandzakiy/esp-idf-bare-minimum)
-            - pytest, clang-format: [royyandzakiy/esp-idf-hello-pytest](https://github.com/royyandzakiy/esp-idf-hello-pytest)
-            - custom components: [royyandzakiy/idf-component-cmake](https://github.com/royyandzakiy/idf-component-cmake)
-        - `zephyr`: [royyandzakiy/zephyr-getting-started](https://github.com/royyandzakiy/zephyr-getting-started)
-            - `Zephyr App Event Manager`: [royyandzakiy/ncs-app-event-manager](https://github.com/royyandzakiy/ncs-app-event-manager)
-            - `SEGGER SystemView`: [royyandzakiy/zephyr-threads-systemview](https://github.com/royyandzakiy/zephyr-threads-systemview)
-        - `pio`
-            - `gtest`: [royyandzakiy/unittesting-espidf-pio-gtest](https://github.com/royyandzakiy/unittesting-espidf-pio-gtest)
-            - `unity`: [royyandzakiy/unittesting-arduino-pio-unity](https://github.com/royyandzakiy/unittesting-arduino-pio-unity)
-            - `asr6601`: [kemalrizky/ra08h-test](https://github.com/kemalrizky/ra08h-test)
-        - `memfault`: [royyandzakiy/memfault-bare-minimum](https://github.com/royyandzakiy/memfault-bare-minimum)
-        - `cubemx`: [royyandzakiy/stm32-blink-cubemx](https://github.com/royyandzakiy/stm32-blink-cubemx)
-    - Desktop
-        - `cmake`
-            - `Windows Development Template` (cmake, windows, vcpkg, winrt, jenkins): [royyandzakiy/windows-cpp-template](https://github.com/royyandzakiy/windows-cpp-template)
-                - `Minimum Template`: [royyandzakiy/cmake-project-template-minim](https://github.com/royyandzakiy/cmake-project-template-minim)
-            - `Linux Development Template` (cmake, linux, conan, devcontainer, github actions): TBD
-                - `gtest`, pytest, github actions: [royyandzakiy/cmake-gtest-boilerplate](https://github.com/royyandzakiy/cmake-gtest-boilerplate)
-        - `winrt` component: 
-            - [royyandzakiy/winrt-projection-console-boilerplate](https://github.com/royyandzakiy/winrt-projection-console-boilerplate)
-            - [royyandzakiy/ThermometerWRC](https://github.com/royyandzakiy/ThermometerWRC)
-        - `qml`: [royyandzakiy/mantis-gcs](https://github.com/royyandzakiy/mantis-gcs)
-    - Web
-        - `clasp`
-            - [royyandzakiy/clasp-boilerplate](https://github.com/royyandzakiy/clasp-boilerplate)
-    - Robotics
-        - `gazebo`: [royyandzakiy/differential_drive_gazebo_ws](https://github.com/royyandzakiy/differential_drive_gazebo_ws)
-        - `ros2`: [royyandzakiy/ws_ros2_opencv](https://github.com/royyandzakiy/ws_ros2_opencv)
-    - Testing
-        - [royyandzakiy/hello-system-test-pytest](https://github.com/royyandzakiy/hello-system-test-pytest)
-        - Static Analyzers
-        - Fuzz Testing
-    - Documentation
-        - Doxygen
-        - Sphynx
-
 - ## Trainings
     - [royyandzakiy/esp-freertos-tutorial](https://github.com/royyandzakiy/esp-freertos-tutorial)
     - [royyandzakiy/shiftacademy-iot-course](https://github.com/royyandzakiy/shiftacademy-iot-course)
@@ -107,11 +56,67 @@
         - [royyandzakiy/android-sound-recorder-amplitude-meter](https://github.com/royyandzakiy/android-sound-recorder-amplitude-meter)
         - [royyandzakiy/pasti-bps](https://github.com/royyandzakiy/pasti-bps)
         - [royyandzakiy/ojek-online](https://github.com/royyandzakiy/ojek-online)
+- ## Software Engineering
+    - Workflow
+        - [royyandzakiy/how-i-work](https://github.com/royyandzakiy/how-i-work/blob/master/WORKFLOW.md)
+    - Architecting
+        - [royyandzakiy/multisensor-station](https://github.com/royyandzakiy/multisensor-station) \<WIP>
+    - Unit Tests & TDD
+        - [royyandzakiy/cmake-gtest-boilerplate](https://github.com/royyandzakiy/cmake-gtest-boilerplate)
+        - [royyandzakiy/clasp-gdocs-gsheets](https://github.com/royyandzakiy/clasp-gdocs-gsheets)
+    - Documenting: Doxygen
+        - [royyandzakiy/doxy-helloworld](https://github.com/royyandzakiy/doxy-helloworld)
+    - Debugging: Task Tracing
+        - …
+- ## Getting Started Guides & Boilerplates
+    - Embedded
+        - `esp-idf`: [royyandzakiy/espidf-boilerplate](https://github.com/royyandzakiy/espidf-boilerplate)
+            - `esp-idf` minimum: [royyandzakiy/esp-idf-bare-minimum](https://github.com/royyandzakiy/esp-idf-bare-minimum)
+            - pytest, clang-format: [royyandzakiy/esp-idf-hello-pytest](https://github.com/royyandzakiy/esp-idf-hello-pytest)
+            - custom components: [royyandzakiy/idf-component-cmake](https://github.com/royyandzakiy/idf-component-cmake)
+            - `FreeRTOS Percepio View`: TBD
+        - `zephyr`: [royyandzakiy/zephyr-getting-started](https://github.com/royyandzakiy/zephyr-getting-started)
+            - `Zephyr App Event Manager`: [royyandzakiy/ncs-app-event-manager](https://github.com/royyandzakiy/ncs-app-event-manager)
+            - `lvgl`: [royyandzakiy/zephyr-display-lvgl-imu](https://github.com/royyandzakiy/zephyr-display-lvgl-imu)
+            - `SEGGER SystemView`: [royyandzakiy/zephyr-threads-systemview](https://github.com/royyandzakiy/zephyr-threads-systemview)
+            - `West Workspace` TBD: west.yml, west-commands.yml, commands.py
+            - `Device Trees` TBD: custom board (lcd, imu, potentio, usb cdc), dtsi, snippets
+        - `pio`
+            - `gtest`: [royyandzakiy/unittesting-espidf-pio-gtest](https://github.com/royyandzakiy/unittesting-espidf-pio-gtest)
+            - `unity`: [royyandzakiy/unittesting-arduino-pio-unity](https://github.com/royyandzakiy/unittesting-arduino-pio-unity)
+            - `asr6601`: [kemalrizky/ra08h-test](https://github.com/kemalrizky/ra08h-test)
+        - `memfault`: [royyandzakiy/memfault-bare-minimum](https://github.com/royyandzakiy/memfault-bare-minimum)
+        - `cubemx`: [royyandzakiy/stm32-blink-cubemx](https://github.com/royyandzakiy/stm32-blink-cubemx)
+    - Desktop
+        - `cmake`
+            - `Windows Development Template` (cmake, windows, vcpkg, winrt, jenkins): [royyandzakiy/windows-cpp-template](https://github.com/royyandzakiy/windows-cpp-template)
+                - `Minimum Template`: [royyandzakiy/cmake-project-template-minim](https://github.com/royyandzakiy/cmake-project-template-minim)
+            - `Linux Development Template` (cmake, linux, conan, devcontainer, github actions): TBD
+                - `gtest`, pytest, github actions: [royyandzakiy/cmake-gtest-boilerplate](https://github.com/royyandzakiy/cmake-gtest-boilerplate)
+        - `winrt` component: 
+            - [royyandzakiy/winrt-projection-console-boilerplate](https://github.com/royyandzakiy/winrt-projection-console-boilerplate)
+            - [royyandzakiy/ThermometerWRC](https://github.com/royyandzakiy/ThermometerWRC)
+        - `qml`: [royyandzakiy/mantis-gcs](https://github.com/royyandzakiy/mantis-gcs)
+    - Web
+        - `clasp`
+            - [royyandzakiy/clasp-boilerplate](https://github.com/royyandzakiy/clasp-boilerplate)
+    - Robotics
+        - `gazebo`: [royyandzakiy/differential_drive_gazebo_ws](https://github.com/royyandzakiy/differential_drive_gazebo_ws)
+        - `ros2`: [royyandzakiy/ws_ros2_opencv](https://github.com/royyandzakiy/ws_ros2_opencv)
+    - Testing
+        - [royyandzakiy/hello-system-test-pytest](https://github.com/royyandzakiy/hello-system-test-pytest)
+        - Static Analyzers
+        - Fuzz Testing
+    - Documentation
+        - Doxygen
+        - Sphynx
 - ## Misc
     - [royyandzakiy/dsa](https://github.com/royyandzakiy/dsa)
     - [royyandzakiy/zephyr-display-lvgl-imu](https://github.com/royyandzakiy/zephyr-display-lvgl-imu)
     - [royyandzakiy/esp32-baremetal-rtos](https://github.com/royyandzakiy/esp32-baremetal-rtos) \<WIP>
     - [royyandzakiy/stm32-flightcontroller](https://github.com/royyandzakiy/stm32-flightcontroller) \<WIP>
+        - PID example
+        - DShot example
     - [royyandzakiy/nanopb-esp32](https://github.com/royyandzakiy/nanopb-esp32)
     - esp32cam:
         - [royyandzakiy/esp32cam-stream-yolo-pio](https://github.com/royyandzakiy/esp32cam-stream-yolo-pio)
