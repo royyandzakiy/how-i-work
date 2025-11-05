@@ -82,6 +82,7 @@
             - `West Workspace` TBD: west.yml, west-commands.yml, commands.py
             - `Device Trees` TBD: custom board (lcd, imu, potentio, usb cdc), dtsi, snippets
         - `pio`
+            - Multisensor Station: [royyandzakiy/multisensor-station](https://github.com/royyandzakiy/multisensor-station) \<WIP>
             - `gtest`: [royyandzakiy/unittesting-espidf-pio-gtest](https://github.com/royyandzakiy/unittesting-espidf-pio-gtest)
             - `unity`: [royyandzakiy/unittesting-arduino-pio-unity](https://github.com/royyandzakiy/unittesting-arduino-pio-unity)
             - `asr6601`: [kemalrizky/ra08h-test](https://github.com/kemalrizky/ra08h-test)
