@@ -37,7 +37,7 @@
             - Data Storage policies, Redundancy strategies (offline first, non-volatile duplicates)
             - Data Security policies, Cryptography (Hashing, Serializing)
         - Quality Metrics
-            - General Software Quality Metrics: Maintainability/Extensibility, Usability, Availability/Robustness, Portability, Interoperability, Testability. How much do we want to achieve these?
+            - General Software Quality Metrics: Maintainability/Extensibility, Usability, Availability/Robustness, Portability, Interoperability, Testability. How much of these do we want to achieve?
             - Embedded Software Quality Metrics: Performance vs Power, Size vs Feature-Rich, Reliability & Redundancy vs Complexity, Cost vs Feature-Rich, Scalability/Modularity vs Simplicity, Realtime-ness vs General Purpose
             - Source:
                 - _Software Architects Handbook by Josepth Ingeno_
