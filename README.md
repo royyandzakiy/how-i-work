@@ -8,5 +8,7 @@ Hi! This repository explores many of my intellectual produce. This is mainly mad
     - **Software Projects Portfolio**: A collection of all my (github) work that are useful or interesting
 - ### [talks.md](talks.md)
     - **Talks**: I do many talks, seminars, lectures; here I collect the scattered links
+- ### [embedded-cpp.md](embedded-cpp.md)
+    - **Embedded C++**: Collection of best practices & tips to use C++ on Embedded Systems
 
 Note: This list is maintained manually, so expect it to expand slowly
