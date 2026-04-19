@@ -1,9 +1,5 @@
 ## Modern C++ for Embedded Systems - Rutvij Girish
 
-![](https://youtu.be/7uwPcCfcv1k?si=ny7NTgsxzzudVZ8Z)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7uwPcCfcv1k?si=3ykxQobPgtzwWX25" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 [![Modern C++ for Embedded Systems](https://img.youtube.com/vi/7uwPcCfcv1k/0.jpg)](https://www.youtube.com/watch?v=7uwPcCfcv1k)
 
 - Core C++ Features
