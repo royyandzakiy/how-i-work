@@ -96,11 +96,11 @@
 - writing c++ HAL
 - working with c libs
 - sequencer for super loops
-	- **\<TBD>
-- pubsub pattern
+	- \<TBD>
+- **pubsub pattern**
 - fsm
-	- **boost sml
-	- **pigweed
+	- **boost sml**
+	- **pigweed**
 - portability & mocking
 - \<TBD>
 
