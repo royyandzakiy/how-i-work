@@ -8,7 +8,14 @@
         - `Nexus Dongle` DLL (Library) & Windows Console Application: Windows Native library (C++) to enable a Windows machine to interact with Nexus Devices. Engaging with high datarate communications via BLE. Developing mainly via Visual Studio, utilizing Windows SDK, Windows Drivers, Windows low level APIs, Windows Runtime for C++ (WinRT C++). Implements full testing suite (WIP), robust build system (CMake, MSBuild, vcpkg) auto generated Documentation (Doxygen).
         - `Nexus Test Tool` Windows Desktop App: App built on top of the Nexus Dongle DLL to give a visual experience when interacting with Nexus Devices. Developed based on .NET (C#).
         - `Door Handle Sensor` Firmware: Controlling an auto door locking mechanism based on proximity sensing.
-        - DBK Device
+        - `Carelock` Firmware: Controlling the Brondool electric doorlock. Developed using Nordic Connect SDK (NCS) / Zephyr for Nordic.
+        - [royyandzakiy/zephyr-ble-service-custom](https://github.com/royyandzakiy/zephyr-ble-service-custom)
+    - ### Aquifera
+        - [royyandzakiy/forestbox](https://github.com/royyandzakiy/forestbox)
+        - [kemalrizky/waterbox-dev](https://github.com/kemalrizky/waterbox-dev)
+        - [royyandzakiy/forestwatch](https://github.com/royyandzakiy/forestwatch)
+        - [royyandzakiy/heartrate-kit](https://github.com/royyandzakiy/heartrate-kit)
+        - [royyandzakiy/aquifera-waterflow-sms](https://github.com/royyandzakiy/aquifera-waterflow-sms)
     - ### Mantis Drone FTMD ITB
         - [royyandzakiy/mantis-gcs](https://github.com/royyandzakiy/mantis-gcs)
         - [royyandzakiy/mavlink-waypoint-generator](https://github.com/royyandzakiy/mavlink-waypoint-generator)
@@ -16,11 +23,39 @@
     - ### eFishery
         - `eFishery Smart Feeder` Firmware
         - `Fish Sensor` Firmware (nRF based)
-        - `WQMS M5` Firmware
+        - [royyandzakiy/loadcell-firmware](https://github.com/royyandzakiy/loadcell-firmware)
+        - [royyandzakiy/motor-testbed](https://github.com/royyandzakiy/motor-testbed)
+        - [royyandzakiy/xiaomi-scale](https://github.com/royyandzakiy/xiaomi-scale)
+        - Clasp
+            - [royyandzakiy/clasp-individual-contribution-report-generator](https://github.com/royyandzakiy/clasp-individual-contribution-report-generator)
+            - [royyandzakiy/clasp-employee-raport-autogenerator](https://github.com/royyandzakiy/clasp-employee-raport-autogenerator)
+            - [clasp-spreadsheet-example](https://script.google.com/home/projects/1FghjX0N_4darjheBl-3ZlOVi-MXS4yJWHVKit_3hMPnUD42zI2taKUG_/edit)
+        - Google Apps Script (GAS)
+            - [GCal Scraping](https://script.google.com/home/projects/1NuuiYL-USRD8sqCJriNgoRewvYTGP9NS9pRdENg7lfhkhWV4t9hoXRm7/edit?pli=1) -> ([output](https://docs.google.com/spreadsheets/d/11Ayiiq6P32mYMMHJk1B1Or8CIID7mP1TMzRjEvUVG7w/edit?gid=376536342#gid=376536342))
+            - [JIRA Issue Get](https://script.google.com/home/projects/1qjKjxvArWvKajFCTrSPpgX0nayKMpCLSGJ4J0ZuhdR7By4BhTlTfHi0H/edit)
+            - [Project Eval PVIC - Extract & Update](https://script.google.com/home/projects/1fkQnrLoZd-rmK2QJ4LcHMPMWZaHk22cPaS8qKgmwTQWacI6sxnhqqEoA/edit)
+            - [Extract Person - Project Creation](https://script.google.com/home/projects/1KI7KxwzggkNJ494MjE5K-oqKapAnSli1jFF_-yyCtvoXk8nhzXNMc2AV/edit)
+            - [Individual Contribution Report - Autogenerator](https://script.google.com/home/projects/1RTJqXG88eTCw-BIQeYGMLPTY7438QhvuoicrDxqR9Uvk8DxDy19XGtip/edit)
+            - [Employee Raport - Autogenerator](https://script.google.com/home/projects/1OlloDidkeApIAQCQav2_zSpmU62La9upsQO61DpwQisElx8RySEEPNLp/edit)
+                - [OKR Employee Raport - Template](https://docs.google.com/spreadsheets/d/1Ku5QjZwINm5q4QvIWRCYgXEYn9vFL_-PGf8fxqfj8hY/edit?gid=1691499781#gid=1691499781)
+            - [Master Raport Dashboard - Autogenerator](https://script.google.com/home/projects/1Cjtb0GRX_pX_lwkxqnzuMbbR6-3Us9O0n-ULu1fIqQEBFppreI1iHZIR/edit)
+    - ### SBM-Space
+        - [royyandzakiy/research-itb](https://github.com/royyandzakiy/research-itb)
     - ### Self
         - [royyandzakiy/royyandzakiy.github.io](https://github.com/royyandzakiy/royyandzakiy.github.io)
+        - [royyandzakiy/royyandzakiy.com](https://github.com/royyandzakiy/royyandzakiy.com)
+        - [royyandzakiy/shofiyaroyyan](https://github.com/royyandzakiy/shofiyaroyyan)
+        - [Tale of Two Birds Narrative](https://docs.google.com/document/d/1w-JOrwFG25uwISggV9Jd7aHV47XvYyP93nXWiyzrw4c/edit?tab=t.0)
     - ### ITB
         - [royyandzakiy/LoRa-RHMesh](https://github.com/royyandzakiy/LoRa-RHMesh)
+        - [royyandzakiy/TheSentinelWatcher](https://github.com/royyandzakiy/TheSentinelWatcher)
+        - [royyandzakiy/RocketManiaGame](https://github.com/royyandzakiy/RocketManiaGame)
+        - [royyandzakiy/e-canteen](https://github.com/royyandzakiy/e-canteen)
+        - [royyandzakiy/presensi-km-itb](https://github.com/royyandzakiy/presensi-km-itb)
+        - [royyandzakiy/TheSentinelWatcher](https://github.com/royyandzakiy/TheSentinelWatcher)
+        - [royyandzakiy/android-sound-recorder-amplitude-meter](https://github.com/royyandzakiy/android-sound-recorder-amplitude-meter)
+        - [royyandzakiy/pasti-bps](https://github.com/royyandzakiy/pasti-bps)
+        - [royyandzakiy/ojek-online](https://github.com/royyandzakiy/ojek-online)
 - ## Software Engineering
     - Workflow
         - [royyandzakiy/how-i-work](https://github.com/royyandzakiy/how-i-work/blob/master/WORKFLOW.md)
@@ -63,14 +98,34 @@
             - [royyandzakiy/winrt-projection-console-boilerplate](https://github.com/royyandzakiy/winrt-projection-console-boilerplate)
             - [royyandzakiy/ThermometerWRC](https://github.com/royyandzakiy/ThermometerWRC)
         - `qml`: [royyandzakiy/mantis-gcs](https://github.com/royyandzakiy/mantis-gcs)
+    - Web
+        - `clasp`
+            - [royyandzakiy/clasp-boilerplate](https://github.com/royyandzakiy/clasp-boilerplate)
+    - Robotics
+        - `gazebo`: [royyandzakiy/differential_drive_gazebo_ws](https://github.com/royyandzakiy/differential_drive_gazebo_ws)
+        - `ros2`: [royyandzakiy/ws_ros2_opencv](https://github.com/royyandzakiy/ws_ros2_opencv)
     - Testing
         - [royyandzakiy/hello-system-test-pytest](https://github.com/royyandzakiy/hello-system-test-pytest)
+        - Static Analyzers
+        - Fuzz Testing
     - Documentation
         - Doxygen
         - Sphynx
 - ## Misc
     - [royyandzakiy/dsa](https://github.com/royyandzakiy/dsa)
     - [royyandzakiy/zephyr-display-lvgl-imu](https://github.com/royyandzakiy/zephyr-display-lvgl-imu)
+    - [royyandzakiy/esp32-baremetal-rtos](https://github.com/royyandzakiy/esp32-baremetal-rtos) \<WIP>
+    - [royyandzakiy/stm32-flightcontroller](https://github.com/royyandzakiy/stm32-flightcontroller) \<WIP>
+        - PID example
+        - DShot example
     - [royyandzakiy/nanopb-esp32](https://github.com/royyandzakiy/nanopb-esp32)
     - esp32cam:
+        - [royyandzakiy/esp32cam-stream-yolo-pio](https://github.com/royyandzakiy/esp32cam-stream-yolo-pio)
+        - [royyandzakiy/esp32cam-capture](https://github.com/royyandzakiy/esp32cam-capture)
+    - [royyandzakiy/game_dungeon_simple](https://github.com/royyandzakiy/game_dungeon_simple)
+    - [royyandzakiy/rf_433](https://github.com/royyandzakiy/rf_433)
+    - [royyandzakiy/RtosTaskChecker](https://github.com/royyandzakiy/RtosTaskChecker)
     - [royyandzakiy/mqtt-tinygsm-wifi](https://github.com/royyandzakiy/mqtt-tinygsm-wifi)
+    - nextjs:
+        - [royyandzakiy/royyan-blog-nextjs](https://github.com/royyandzakiy/royyan-blog-nextjs)
+        - [royyandzakiy/next-chakra-personal-website](https://github.com/royyandzakiy/next-chakra-personal-website)
