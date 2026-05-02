@@ -4,13 +4,13 @@
 - Quick entry-point for engineers and SREs to find the most-used technical docs and action items.
 
 ## Quick links (use as a living index)
-- TRD (trd.md) — architecture & system overview
-- TRD-web / TRD-iot — platform-specific notes
-- RFCs summary (rfc.md)
-- API Contract & ERD (designs/api-contract.md, designs/entity-relationship-diagram.md)
-- Bugs (bugs.md)
-- Testing index (testing/)
-- C4 & diagrams (designs/c4-diagram.md)
+- [TRD (trd.md)](trd.md) — architecture & system overview
+    - [TRD-web](trd-web.md) / [TRD-iot](trd-iot.md) — platform-specific examples
+- [RFCs summary (rfc.md)](rfc.md)
+- [API Contract (designs/api-contract.md)](designs/api-contract.md) & [ERD (designs/entity-relationship-diagram.md)](designs/entity-relationship-diagram.md)
+- [Bugs (bugs.md)](bugs.md)
+- [Testing result dump (testing/)](testing/)
+- [C4 diagrams (designs/c4-diagram.md)](designs/c4-diagram.md)
 
 ## Current action items (example checklist)
 - [ ] Review RFCs in "Proposed" status
