@@ -48,7 +48,7 @@ Documented, timestamped, version-controlled decisions that affect the system's a
 
 - [Michael Nygard's ADR blog post](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
 - [Zephyr SMF Docs](https://docs.zephyrproject.org/latest/services/smf/index.html)
-- [RFC Index](./rfcs.md)
+- [RFC Index](./rfc.md)
 - [Bug Tracker](./bugs.md)
 
 ---

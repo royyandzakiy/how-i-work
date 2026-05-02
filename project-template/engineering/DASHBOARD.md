@@ -6,7 +6,7 @@
 ## Quick links (use as a living index)
 - TRD (trd.md) — architecture & system overview
 - TRD-web / TRD-iot — platform-specific notes
-- RFCs summary (rfcs.md)
+- RFCs summary (rfc.md)
 - API Contract & ERD (designs/api-contract.md, designs/entity-relationship-diagram.md)
 - Bugs (bugs.md)
 - Testing index (testing/)

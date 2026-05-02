@@ -5,7 +5,7 @@
 | **Status** | Proposed / Accepted / Deprecated / Superseded |
 | **Date** | YYYY-MM-DD |
 | **Deciders** | @person1, @person2, @team-name |
-| **Related** | [RFC-XXX](../rfcs.md), [PR-XXX](link), [Supersedes ADR-YYY](./ADR-YYY_short_title.md) |
+| **Related** | [RFC-XXX](../rfc.md), [PR-XXX](link), [Supersedes ADR-YYY](./ADR-YYY_short_title.md) |
 
 ---
 
@@ -101,7 +101,7 @@ Why this decision over alternatives?
 
 ## Related
 
-- [RFC-XXX](../rfcs.md#rfc-xxx)
+- [RFC-XXX](../rfc.md#rfc-xxx)
 - [PR #123](https://github.com/example/pr/123)
 - [Bug BUG-XXX](../bugs.md#bug-xxx)
 

@@ -4,15 +4,15 @@
 - Central place for technical artifacts: TRDs, RFCs, designs, testing notes, bug lists, API contracts, diagrams, and ADRs.
 
 ## Structure (what you'll find)
-- rfcs.md — long-form list and templates for RFCs
-- trd*.md — Technical requirement docs (general, web, IoT)
+- rfc.md — long-form list and templates for RFCs
+- trd.md — Technical requirement docs
 - bugs.md — canonical project bug/triage log (not a substitute for issue tracker; summary & links)
 - testing/ — test plans, E2E notes, test results
 - designs/ — architecture diagrams, C4, ERD, API contract
 
 ## How & when to fill these
 - Project start: create/update TRD and Architecture section; link PRD.
-- Before large changes: write an RFC; discuss and mark status in rfcs.md.
+- Before large changes: write an RFC; discuss and mark status in rfc.md.
 - When a defect is discovered: add a concise entry to bugs.md with reproduction, severity, owner, and issue link.
 - After tests/runbooks: commit artifacts to testing/ with date and author.
 
@@ -24,7 +24,7 @@
 ## Maintenance
 - Add version and last-updated header in each doc.
 - Link any external internal-wiki or repo references.
-- Keep rfcs.md status (Proposed, Accepted, Rejected) and reference ADRs.
+- Keep rfc.md status (Proposed, Accepted, Rejected) and reference ADRs.
 - Clean old drafts under designs/archive annually; keep ERD/C4 up-to-date when DB or major flows change.
 
 ## Templates & quick rules

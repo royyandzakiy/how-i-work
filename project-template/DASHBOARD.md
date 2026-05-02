@@ -9,7 +9,7 @@
 - Project Charter → management/project-charter.md
 - PRD → management/prd.md
 - TRD → engineering/trd.md
-- RFCs → engineering/rfcs.md
+- RFCs → engineering/rfc.md
 
 ## Current summary (fill once project starts)
 - Project lead: [name]
