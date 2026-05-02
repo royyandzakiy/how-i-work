@@ -4,10 +4,10 @@
 - Single-pane overview for PMs and stakeholders to find decisions, PRD, current milestones, and action items.
 
 ## Top-level links
-- Project Charter (project-charter.md)
-- PRD (prd.md)
-- Recent meeting minutes (minutes-of-meetings/)
-- Latest sprint review (sprint-reviews/)
+- [Project Charter (project-charter.md)](project-charter.md)
+- [PRD (prd.md)](prd.md)
+- [Recent meeting minutes (minutes-of-meetings/)](minutes-of-meetings/)
+- [Latest sprint review (sprint-reviews/)](sprint-reviews/)
 
 ## At-a-glance status
 - Current milestone: [fill milestone title]

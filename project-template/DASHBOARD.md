@@ -4,12 +4,12 @@
 - Use this page as the project landing: pick Product (management/) or Engineering (engineering/) dashboards below.
 
 ## Quick navigation
-- Management Dashboard → management/DASHBOARD.md
-- Engineering Dashboard → engineering/DASHBOARD.md
-- Project Charter → management/project-charter.md
-- PRD → management/prd.md
-- TRD → engineering/trd.md
-- RFCs → engineering/rfc.md
+- [Management Dashboard (management/DASHBOARD.md)](management/DASHBOARD.md)
+- [Engineering Dashboard (engineering/DASHBOARD.md)](engineering/DASHBOARD.md)
+- [Project Charter (management/project-charter.md)](management/project-charter.md)
+- [PRD (management/prd.md)](management/prd.md)
+- [TRD (engineering/trd.md)](engineering/trd.md)
+- [RFCs (engineering/rfc.md)](engineering/rfc.md)
 
 ## Current summary (fill once project starts)
 - Project lead: [name]

@@ -8,7 +8,7 @@
     - [TRD-web](trd-web.md) / [TRD-iot](trd-iot.md) — platform-specific examples
 - [RFCs summary (rfc.md)](rfc.md)
 - [API Contract (designs/api-contract.md)](designs/api-contract.md) & [ERD (designs/entity-relationship-diagram.md)](designs/entity-relationship-diagram.md)
-- [Bugs (bugs.md)](bugs.md)
+- [Bugs (bugs.md)](bug.md)
 - [Testing result dump (testing/)](testing/)
 - [C4 diagrams (designs/c4-diagram.md)](designs/c4-diagram.md)
 
