@@ -10,5 +10,11 @@ Hi! This repository explores many of my intellectual produce. This is mainly mad
     - **Talks**: I do many talks, seminars, lectures; here I collect the scattered links
 - ### [embedded-cpp.md](embedded-cpp.md)
     - **Embedded C++**: Collection of best practices & tips to use C++ on Embedded Systems
+- ### [project-template](project-template)
+    - **Techinical Project Management template**: A general technical project template that I use in projects, consisting of managemetn and engineering folders
+    - ### [engineering/trd.md](project-template/engineering/trd.md)
+        - **Technical Requirement Document**: Document template to ensure clear upfront on how a project is implemented
+    - ### [management/prd.md](project-template/management/prd.md)
+        - **Product Requirement Document**: Document template to ensure clear on what to make and how it fulfills the business needs
 
 Note: This list is maintained manually, so expect it to expand slowly
