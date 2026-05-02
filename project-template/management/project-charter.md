@@ -54,20 +54,6 @@
 
 # 3. Timeline
 
-## Preparations
-
-| **Deliverable** | **Who** | **DL** |
-| --- | --- | --- |
-| Project charter document | Dev |  |
-| External connections to DB | Client |  |
-| Dataset | Client |  |
-| Roadmap | Dev / Client |  |
-| Sprint Goal planning | Dev |  |
-| Connection to local server | Client |  |
-| Finalize UI/UX | Dev + Client |  |
-| Standup meetings | Dev |  |
-| Start development | Dev |  |
-
 ## Project Timeline
 
 ## Sprint Roadmap
