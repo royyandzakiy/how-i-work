@@ -1,4 +1,4 @@
-# Projects Portfolio
+)# Projects Portfolio
 ## Project Setups
 - ### Embedded
     - **Zephyr / nRF Connect**:
@@ -80,3 +80,4 @@
 - zephyr sysbuild, secure boot
 - C++ library project template
 - zephyr ble dfu mtu
+- embedded linux: qemu basic, flash script, custom driver
