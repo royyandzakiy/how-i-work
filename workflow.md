@@ -48,11 +48,6 @@
         - Storage Peripheral & Memory Strategy: Flash size, Volatile variables, Array / Stack size
         - Systems Engineering
             - System Architecture: Model Based Systems-Engineering, Model Simulation
-    - ### Development
-        - Exploration & Familiarization with Tools & Environment
-            - PoC, Rapid Prototyping, Official Documentation, Tutorial/Courses
-            - Setup Development Environment, CI/CD
-        - Routine & Cadences
 
 - ## Project-Specific Components Development
     - API Contract & Data Format
@@ -100,12 +95,12 @@
         - Communication & Collaboration: VSCode Liveshare, Google Suite (GMeet, GDocs, GSlides, GDrive), Slack, JIRA
         - Cadence & People: Daily-Weekly-Monthly-Quarterly Cadences, Planning-Retro, Individual Development Plan (IDP), Performance Improvement Plan (PIP), Contracts
     - Testing Planning
-        - Just in Time (JIT) Testing Philosophy
+        - Just in Time (JIT) Testing, TDD
         - Testing Pyramid: User Acceptance Testing, End-to-End Testing, System/Integration Testing, Unit Testing
         - Exhaustive Testing, Failure Mode & Effects Analysis (FMEA)
         - Test Scenario Creation, Test Realizatoin
     - CI/CD Pipeline
-        - Steps: Build, Analyze, Test, Deploy
+        - Steps: Sanitizers, Build, Analyze Result, Unit Test, Simulation, HIL testing, Store Artefacts & Release Notes, Deploy (Auto trigger / Manual Flashing)
         - Tools: Git, Bitbucket, Docker, Jenkins/GitLab
 
 - ## Team Development
@@ -141,8 +136,8 @@
     - Version Control: Git, Bitbucket, Github, SourceTree
     - Documentation: Sphynx, Docusaurus, Doxygen
     - CI/CD: Jenkins, GitLab, Github Actions, Docker
-    - SDK: ESP IDF, Arduino, STM32Cube, NRFConnect; Zephyr RTOS, FreeRTOS
-    - Build Tools: CMake, GCC
+    - SDK: ESP IDF, Arduino, STM32Cube, NRFConnect / Zephyr RTOS, FreeRTOS
+    - Build Tools: CMake, GCC, Clang
     - Testing: GoogleTest, PyTest, GCov, CTest, Unity
     - IDE: VSCode, Visual Studio 2022
     - RTOS Debugging: SEGGER SystemView
