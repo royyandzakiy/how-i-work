@@ -12,9 +12,9 @@ This repo maintains the way I work, the structure of my work. This is mainly mad
     **Talks**: I do many talks, seminars, lectures; here I collect the scattered links
 - ## [embedded-cpp.md](embedded-cpp.md)
     **Embedded C++**: Collection of best practices & tips to use C++ on Embedded Systems
-- ## [project-template](project-template)
-    **Techinical Project Management template**: A general structure of files that I use in (real life) projects, consisting of managemetn and engineering folders
-    - ### [engineering/trd.md](project-template/engineering/trd.md)
+- ## [workspace-template](workspace-template)
+    **Techinical Project Management template**: A general workspace structure of files that I use in (real life) projects, consisting of managemetn and engineering folders
+    - ### [engineering/trd.md](workspace-template/engineering/trd.md)
         **Technical Requirement Document**: Document template to ensure clear upfront on how a project is implemented
-    - ### [management/prd.md](project-template/management/prd.md)
+    - ### [management/prd.md](workspace-template/management/prd.md)
         **Product Requirement Document**: Document template to ensure clear on what to make and how it fulfills the business needs

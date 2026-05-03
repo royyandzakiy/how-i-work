@@ -72,3 +72,25 @@
     - [royyandzakiy/nanopb-esp32](https://github.com/royyandzakiy/nanopb-esp32)
     - esp32cam:
     - [royyandzakiy/mqtt-tinygsm-wifi](https://github.com/royyandzakiy/mqtt-tinygsm-wifi)
+
+
+## Plans
+### Work
+- LMesh
+- eFishery
+- Teaching
+    - [Beyond the Compiler - ITB](https://docs.google.com/presentation/d/1bUpNFzojfTJrPyuKZOrNM5WjTlhIKrd-ILqr3q75GxI/edit?slide=id.g3cadaa0abd0_0_501#slide=id.g3cadaa0abd0_0_501)
+    - [Teknologi Budidaya Berbasis IoT - IPB](https://docs.google.com/presentation/d/12a08WXFfVqDvR8ned3B6okymbPfukO0dl5oTxakRE1U/edit?slide=id.g13a78b40027_0_78#slide=id.g13a78b40027_0_78)
+- Others
+### Platforms
+- Embedded
+    - Zephyr / NCS
+    - ESP-IDF
+    - PIO
+    - STM32
+- Library
+    - CMake
+    - winRT
+- Desktop
+    - Qt6
+- Linux
