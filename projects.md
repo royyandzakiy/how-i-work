@@ -31,7 +31,7 @@
     - Modular Structure:
         - [royyandzakiy/boost-sml-fsm](https://github.com/royyandzakiy/boost-sml-fsm)
     - Testing:
-        - [gmock-sfinae-concepts-calculator](https://github.com/royyandzakiy/gmock-sfinae-concepts-calculator)
+        - [royyandzakiy/gmock-sfinae-concepts-calculator](https://github.com/royyandzakiy/gmock-sfinae-concepts-calculator)
 
 ## Work
 - ### LMesh
