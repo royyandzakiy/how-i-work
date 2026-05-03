@@ -75,8 +75,8 @@
 
 ## To Add
 - Tracy C++
-- zephyr project boilerplate: etl, devcont, cicd, docs, rls pg
+- zephyr project boilerplate: etl, devcont, aem
+- zephyr cicd, jenkins, docs, rls pg
 - zephyr sysbuild, secure boot
-- zephyr jenkins
 - C++ library project template
-- zephyr ble dfu
+- zephyr ble dfu mtu
