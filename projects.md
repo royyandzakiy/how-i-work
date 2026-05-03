@@ -76,3 +76,4 @@
 ## To Add
 - Tracy C++
 - zephyr devcontainer
+- zephyr project boilerplate
