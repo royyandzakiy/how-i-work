@@ -4,8 +4,8 @@ This repo maintains the way I work, the structure of my work. This is mainly mad
 
 - ## [workflow.md](workflow.md)
     **Engineering & Development Workflow**: How I do Engineering and Product Development work
-- ## [portfolio.md](portfolio.md)
-    **Software Projects Portfolio**: A collection of all my (github) work that are useful or interesting
+- ## [projects.md](projects.md)
+    **Software Projects Portfolio**: A collection of my highlighted work that are shareable (not closed source)
     - ### [cpp-project-template](https://github.com/royyandzakiy/cpp-project-template)
         **C++ Project Template**: A template I use to do development for mid-large C++ projects
 - ## [talks.md](talks.md)
