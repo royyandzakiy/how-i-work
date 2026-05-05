@@ -53,10 +53,6 @@
     - **LoRa RHMesh**: Explores the RHMesh library, elaborating details on how to use on an rfm95.
         - [royyandzakiy/LoRa-RHMesh](https://github.com/royyandzakiy/LoRa-RHMesh)
 
-## Teaching
-- [Beyond the Compiler - ITB](https://docs.google.com/presentation/d/1bUpNFzojfTJrPyuKZOrNM5WjTlhIKrd-ILqr3q75GxI/edit?slide=id.g3cadaa0abd0_0_501#slide=id.g3cadaa0abd0_0_501)
-- [Teknologi Budidaya Berbasis IoT - IPB](https://docs.google.com/presentation/d/12a08WXFfVqDvR8ned3B6okymbPfukO0dl5oTxakRE1U/edit?slide=id.g13a78b40027_0_78#slide=id.g13a78b40027_0_78)
-
 ## Explorations
 - **GUI**
     - [royyandzakiy/qt-logsfilter-gui](https://github.com/royyandzakiy/qt-logsfilter-gui)

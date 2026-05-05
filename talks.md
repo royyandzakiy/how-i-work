@@ -1,9 +1,15 @@
-# Training
+# Talks
+## Technical
+- [ITB - Beyond the Compiler - Arkavidia 2026](https://docs.google.com/presentation/d/1bUpNFzojfTJrPyuKZOrNM5WjTlhIKrd-ILqr3q75GxI/)
+- [Embedded RTOS - Mastering the Heart of Embedded Systems - Synapsis](https://canva.link/jtgikiem03xmakc)
 - [ESP FreeRTOS Tutorial Series](https://github.com/royyandzakiy/esp-freertos-tutorial)
+- [IPB - Teknologi Budidaya Berbasis AIoT - Karir dan Etika Ilmu Komputer (KOM1305)](https://docs.google.com/presentation/d/12a08WXFfVqDvR8ned3B6okymbPfukO0dl5oTxakRE1U)
+- [GAB 2023 SG - Journey to Aquaculture Intelligence](https://docs.google.com/presentation/d/1Gz_sOcX8zNkSst5UaESUoas63hhdrnAetND1AlZ3H0U/edit#slide=id.p1)
+- [IoT for Dummies](https://docs.google.com/presentation/d/1WDwb3iUrFKsV7BKUg3qcfv9UtCRrYmETVbd0lcBNJkU/edit#slide=id.gfd6218c1c2_0_9)
+- [eFishery Drones Workshop - Intro](https://docs.google.com/presentation/d/1x0iZS6GYLlQd4Cr9fKzmX0mmjLXScSZttISEpOaMUL8/edit#slide=id.g12de3fbf86f_0_545)
 - [Dzafir IoT Kit (GDrive)](https://drive.google.com/drive/folders/1oiqPNfwPO2W9I_imb3yst7XLfvVeSYBz?usp=drive_link)
 - [Shiftacademy IotT Course](https://github.com/royyandzakiy/shiftacademy-iot-course)
 
-# Talks
 ## Self Awareness & Actualization
 - [How to U - A Guide to Being Self Aware and to Plan Life](https://docs.google.com/presentation/d/1D7a-iliP50DHsDPUIQVzKeTDWwlv0_WPS4VN0sVp2qk/edit#slide=id.g2a96e9ab310_0_52)
 - [Powering Your Professional Path](https://docs.google.com/presentation/d/1HoUwENsLbTC6bwX0fMwn9OfZO-Mzfp_6r5NBCR_qR5c/edit#slide=id.g276b6707f17_0_53)
@@ -29,12 +35,6 @@
 - [Peranan Anak Muda dalam Menghadapi COVID-19 dengan Teknologi](https://drive.google.com/file/d/1jLgoRk-sNBK3k5FKavMJYfJsAQ998501/view?usp=sharing)
 - [Teknologi dalam Akses Pendidikan: Kemudahan atau Kesulitan?](https://drive.google.com/file/d/1fcuFOkcT4NgAqcVKlN1LpO8_G3fEvaez/view?usp=sharing)
 
-## Technical
-- [GAB 2023 SG - Journey to Aquaculture Intelligence](https://docs.google.com/presentation/d/1Gz_sOcX8zNkSst5UaESUoas63hhdrnAetND1AlZ3H0U/edit#slide=id.p1)
-- [IoT for Dummies](https://docs.google.com/presentation/d/1WDwb3iUrFKsV7BKUg3qcfv9UtCRrYmETVbd0lcBNJkU/edit#slide=id.gfd6218c1c2_0_9)
-- [eFishery Drones Workshop - Intro](https://docs.google.com/presentation/d/1x0iZS6GYLlQd4Cr9fKzmX0mmjLXScSZttISEpOaMUL8/edit#slide=id.g12de3fbf86f_0_545)
-- [IPB - Teknologi Budidaya Berbasis AIoT - Karir dan Etika Ilmu Komputer (KOM1305)](https://docs.google.com/presentation/d/12a08WXFfVqDvR8ned3B6okymbPfukO0dl5oTxakRE1U)
-
 ## Work
 - ### eFishery
     - [TownHall - AIoT & Cultivation Deck (restricted)](https://docs.google.com/presentation/d/1lhiviO86thniKqNHOs2OJ8VTZOXrV3rm4_eXlFrbvc4/edit#slide=id.g24c4343924d_14_19)
@@ -49,5 +49,6 @@
     - [Pond Speak](https://docs.google.com/presentation/d/122nRikPQrTPi7xdQs1i-p32VL03epPcwuMcxj4VBjx4/edit#slide=id.g23d616d317c_0_102)
 
 ## Misc
-- https://www.notion.so/efiwiki/RnD-Talks-c79dd2f73a7b4613b6c36a799dd55678
+- [PRD Template](https://efiwiki.notion.site/Product-Requirement-Document-Template-5c5583c6cdbf4b8f94f0c99bd92965a9)
+- [Contents](content.md)
 - [About Me](https://docs.google.com/presentation/d/1gZ5KkWAApIOZaqpD39-Tjh1XMdEOW7EZqHYcTuYt2V8/edit#slide=id.g26a474b518d_0_106)
