@@ -8,7 +8,7 @@ This repo maintains the way I work, the structure of my work. This is mainly mad
     **Software Projects Portfolio**: A collection of my highlighted work that are shareable (not closed source)
     - ### [cpp-project-template](https://github.com/royyandzakiy/cpp-project-template)
         **C++ Project Template**: A template I use to do development for mid-large C++ projects
-    - ## [embedded-cpp.md](embedded-cpp.md)
+    - ### [embedded-cpp.md](embedded-cpp.md)
         **Embedded C++**: Collection of best practices & tips to use C++ on Embedded Systems
 - ## [workspace-template](workspace-template)
     **Techinical Project Management template**: A general workspace structure of files that I use in (real life) projects, consisting of managemetn and engineering folders
