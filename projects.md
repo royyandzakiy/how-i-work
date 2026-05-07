@@ -77,3 +77,99 @@
 - C++ library project template
 - zephyr ble dfu mtu
 - embedded linux: qemu basic, flash script, custom driver
+
+## Portfolio
+Per project, answer:
+1. What did you build?
+2. What scale/complexity did it handle?
+3. What measurable impact did it create?
+
+For LMesh - ADS Device Firmware
+
+Current: "sending data with high throughput"
+Better:
+
+· "Sustained X Mbps over BLE/USB" (test this with iperf-style tool)
+· "Processed X channels at Y Hz" (e.g., "32 channels at 250Hz = 8,000 samples/sec")
+· "Achieved <Xms latency from sensor to host"
+· "Maintained 0% packet loss over Z meters"
+
+For Door Lock Device (Prisons)
+
+Current: "ensuring robustness amidst potential fire warning"
+Better:
+
+· "<100ms fail-safe engagement on fire signal"
+· "Zero critical failures across X units/Y months"
+· "Reduced power consumption by X% vs legacy PIC platform" (measure with nRF Power Profiler)
+· "100% FOTA success rate across X updates"
+
+For eFishery Smart Feeder
+
+Current: "Manages inputs via BLE App and button"
+Better:
+
+· "Deployed across X ponds / Y units"
+· "Reduced feed waste by X% through precise motor control"
+· "Achieved X months on single battery charge" (critical for shrimp farmers)
+· "99.X% uptime in humid, outdoor conditions"
+
+For Fish Sensor (TinyML)
+
+Current: "Infers data using TinyML to conclude fish behavior"
+Better:
+
+· "X% inference accuracy for feeding detection"
+· "Model runs in <X KB RAM / <X ms"
+· "Reduced manual monitoring by X hours/day for farmers"
+· "Achieved X months battery life on nRF52"
+
+For Mantis GCS
+
+Current: "Ground Control Station application"
+Better:
+
+· "Used in X successful flights"
+· "Handles waypoint missions up to X km"
+· "Reduced mission planning time by X% via complex shape generator"
+
+📊 Quick Fixes You Can Apply Today
+
+Project Add This Metric (Easily Measurable)
+ADS Device Max channels × sample rate (e.g., "32ch @ 1kHz")
+Door Lock Fail-safe trigger time + deployment count
+Smart Feeder Battery life + number of units deployed
+Fish Sensor Model size + inference time + accuracy %
+Water Sensor Battery life + measurement frequency
+
+🎯 Structural Improvements
+
+```markdown
+### ADS Device Firmware
+**Brain-Computer Interface Data Acquisition** | *Nordic NCS / Zephyr*
+
+Built high-throughput firmware streaming 32-channel EEG data at 250Hz (8K samples/sec) over BLE/USB. Achieved <10ms latency with 0% packet loss over 5m.
+
+**↓ 8,000 samples/sec · 0% loss**
+
+- Implemented BLE throughput optimization (MTU sizing, connection params) achieving 70% of theoretical max
+- Built CI pipeline with unit tests + hardware-in-loop system tests
+- Reduced power consumption 40% vs initial prototype through task scheduling optimization
+```
+
+🛠️ How to Get Missing Metrics Fast
+
+1. Deployment scale: Check sales records, ask PMs, or estimate from production batches
+2. Performance numbers: Run quick benchmarks on existing hardware
+3. Reliability: Search Jira/GitHub for "bug count" or "uptime" in production logs
+4. Efficiency gains: Compare old vs new power measurements, memory usage, or build times
+
+⚡ One Low-Effort Win
+
+Add a "Selected Metrics" badge to each work project:
+
+```
+[8K samples/sec]  [40% power reduction]  [0% packet loss]
+```
+
+This visually signals impact before they read the description — exactly what Salman does with ↓ 40% API latency and 99.95% uptime.
