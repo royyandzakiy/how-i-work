@@ -1,4 +1,4 @@
-)# Projects Portfolio
+# Projects Portfolio
 ## Project Setups
 - ### Embedded
     - **Zephyr / nRF Connect**:
