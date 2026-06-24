@@ -43,3 +43,11 @@ This is when you have folders explicitly named `core/` and `app/` inside `src/`.
 | **Package-by-Layer** | `drivers/`, `managers/`, `business/` | Firmware, strict hardware abstractions, small utilities |
 | **Package-by-Feature** | `networking/`, `graphics/`, `audio/` | Large-scale codebases, team-isolated modules |
 | **Core/App Split** | `core/`, `app/` (or `engine/`, `client/`) | Code intended for reuse, multi-platform applications |
+
+---
+
+## Cherno
+
+App, Core layout
+
+https://github.com/TheCherno/Architecture/tree/main
