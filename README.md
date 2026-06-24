@@ -2,13 +2,13 @@
 
 This repo maintains the way I work, the structure of my work. This is mainly made for me to remember how to solve stuff with what concept I have already learnt or which template I have already made before, hence helping me to get running quickly. And for you traveler, enjoy exploring my mind!
 
-- ## [workflow.md](workflow.md)
+- ## [workflow.md](best-practices/development-workflow.md)
     **Engineering & Development Workflow**: How I do Engineering and Product Development work
 - ## [projects.md](projects.md)
     **Software Projects Portfolio**: A collection of my highlighted work that are shareable (not closed source)
     - ### [cpp-project-template](https://github.com/royyandzakiy/cpp-project-template)
         **C++ Project Template**: A template I use to do development for mid-large C++ projects
-    - ### [embedded-cpp.md](embedded-cpp.md)
+    - ### [embedded-cpp.md](best-practices/embedded-cpp.md)
         **Embedded C++**: Collection of best practices & tips to use C++ on Embedded Systems
 - ## [workspace-template](workspace-template)
     **Techinical Project Management template**: A general workspace structure of files that I use in (real life) projects, consisting of managemetn and engineering folders

@@ -52,3 +52,22 @@
 - [**★ PRD Template**](https://efiwiki.notion.site/Product-Requirement-Document-Template-5c5583c6cdbf4b8f94f0c99bd92965a9)
 - [**★ One-Pager Contents**](content.md)
 - [About Me](https://docs.google.com/presentation/d/1gZ5KkWAApIOZaqpD39-Tjh1XMdEOW7EZqHYcTuYt2V8/edit#slide=id.g26a474b518d_0_106)
+
+## Other
+### Engineering Leadership
+[link](https://www.figma.com/board/iRxEEvQDaY8l8qyMX2EVTX/Organize-like-a-Startup---Template-?node-id=0-1&p=f&t=gCrhoxeIoanf7fqW-0)
+
+![Talk: Engineering Leadership](attachments/talk-being-a-techlead.png)
+
+### Stakeholder Management
+[link](https://www.figma.com/board/iRxEEvQDaY8l8qyMX2EVTX/Organize-like-a-Startup---Template-?node-id=0-1&p=f&t=gCrhoxeIoanf7fqW-0)
+
+![Talk: Stakeholder Management](attachments/talk-stakeholder-management.png)
+
+### Organization Improvement Workshop
+[Organization Improvement Workshop (PDF)](attachments/organization-improvement-workshop.pdf)
+
+![Organization Improvement Steps](attachments/organization-improvement-workshop.png)
+
+### eFishery Structure
+![eFishery Structure](attachments/efishery-structure.png)
