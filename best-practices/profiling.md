@@ -16,3 +16,21 @@
 - **Callgrind and Coz have no real Windows peer** — for those, profile under WSL.
 
 So a clean split: **Linux** → perf + Hotspot (CPU), Heaptrack (mem), bpftrace (off-CPU). **Windows** → WPR/WPA for nearly everything, Tracy for realtime.
+
+```bash
+sudo apt update
+sudo apt install hotspot heaptrack heaptrack-gui kcachegrind massif-visualizer
+
+# Hotspot — record then open, or open existing perf.data
+hotspot                    # GUI, File > Open perf.data
+hotspot perf.data          # or pass it directly
+
+# KCachegrind — Callgrind output
+kcachegrind callgrind.out.12345
+
+# Heaptrack GUI
+heaptrack_gui heaptrack.yourapp.12345.zst
+
+# Massif
+massif-visualizer massif.out.12345
+```
