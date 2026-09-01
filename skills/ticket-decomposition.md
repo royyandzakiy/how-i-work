@@ -7,7 +7,7 @@ The goal is not accurate estimates. Those are impossible. The goal is **estimate
 becomes visible early**. A plan where a wrong assumption surfaces at hour 2 is enormously more
 valuable than one where it surfaces at hour 24, even if both were equally wrong at the outset.
 
-This document is self-contained: the method, the calibration procedure, worked examples across four
+This document is self-contained: the method, the calibration procedure, worked examples across five
 domains, and a script for deriving a baseline from your own tracker history.
 
 ---
@@ -16,6 +16,7 @@ domains, and a script for deriving a baseline from your own tracker history.
 
 1. [The one idea that matters](#1-the-one-idea-that-matters)
 2. [Procedure](#2-procedure)
+   - [2.0 Intake — what to provide](#20-intake--what-to-provide)
    - [2.1 Establish the calibration basis](#21-establish-the-calibration-basis)
    - [2.2 Write the story](#22-write-the-story)
    - [2.3 Draft the ticket list](#23-draft-the-ticket-list)
@@ -25,11 +26,15 @@ domains, and a script for deriving a baseline from your own tracker history.
    - [2.7 Write the ticket bodies](#27-write-the-ticket-bodies)
    - [2.8 Budget the sprint above the ticket sum](#28-budget-the-sprint-above-the-ticket-sum)
    - [2.9 Check the plan](#29-check-the-plan-before-presenting-it)
-3. [Domain notes](#3-domain-notes)
-4. [Output format](#4-output-format)
-5. [Calibration — deriving a baseline from history](#5-calibration--deriving-a-baseline-from-history)
-6. [Worked examples](#6-worked-examples)
-7. [Appendix — calibrate.py](#7-appendix--calibratepy)
+3. [Cadence — size by session, not by hour](#3-cadence--size-by-session-not-by-hour)
+4. [Work archetypes](#4-work-archetypes)
+5. [Deep study — active learning and motivation](#5-deep-study--active-learning-and-motivation)
+6. [Fluid re-planning — when to re-cut](#6-fluid-re-planning--when-to-re-cut)
+7. [Domain notes](#7-domain-notes)
+8. [Output format](#8-output-format)
+9. [Calibration — deriving a baseline from history](#9-calibration--deriving-a-baseline-from-history)
+10. [Worked examples](#10-worked-examples)
+11. [Appendix — calibrate.py](#11-appendix--calibratepy)
 
 ---
 
@@ -47,14 +52,79 @@ is the whole mechanism; everything else is scaffolding around it.
 
 ## 2. Procedure
 
+### 2.0 Intake — what to provide
+
+Requirements alone are not enough to estimate anything. Requirements describe *the work*; estimates
+depend on *the worker and the conditions*. Paste this alongside them:
+
+```
+## Intake
+
+**Work:** <one line: what, and what "done" looks like>
+
+**Archetype:** <build-out | debug | exploration | study | refactor | port | code-reading>
+
+**Cadence:** <continuous | stepping | weekend | evenings>
+  - session length: <hours per sitting>
+  - frequency: <sessions per week>
+  - known upcoming gaps: <holidays, travel, other projects>
+
+**Familiar / new to me:**
+  - familiar: <things I have done before>
+  - NEW:      <things I have never done>
+
+**Feedback loop:** <instant (unit tests) | slow (push and wait for CI)
+                    | very slow (flash hardware, manual rig)>
+
+**Constraints:** <deadline, team, shared hardware, review gates>
+
+**Anchors (optional, highest leverage):**
+  - <past task> took <actual hours>
+  - <past task> took <actual hours>
+```
+
+Two fields do most of the work and are worth explaining.
+
+**`Familiar / NEW` is the one that cannot be skipped.** Uncertainty is what the cap, the spikes and
+the multipliers all key off — and "Low = code you have touched" is a fact about *you* that no amount
+of reading the requirements will reveal. From the outside every task looks like a known pattern, so
+without this split everything gets classified Low, the cap never fires, and the output is a tidy list
+of confident 2h tickets: exactly the failure this method exists to prevent. One honest line —
+*"I've never touched CMake; I write parsers weekly"* — changes the plan more than any other input.
+
+**`Feedback loop` predicts rework better than anything else.** How long it takes to find out whether
+a change worked determines how many passes the work needs. Measured across four repos by one
+developer: library and tooling work with fast local feedback showed a **10%** same-day self-correction
+rate, while firmware work against real hardware showed **45%** — four times higher, same person, same
+discipline. Slow loops mean roughly half the work needs a second pass, and no estimate built on
+first-pass effort survives that.
+
+**Filled example:**
+
+```
+**Work:** Add TLS support to the device provisioning client.
+**Archetype:** build-out, with an exploration spike (never used this TLS lib)
+**Cadence:** stepping — evenings + weekends, ~2h sittings, 3-4 sessions/week
+**Familiar / new:**
+  - familiar: this codebase, the provisioning flow, C++/CMake
+  - NEW: the TLS library, certificate pinning
+**Feedback loop:** very slow — must flash the board to test the handshake
+**Constraints:** one shared test rig, shared with two other people
+**Anchors:** last cert-handling change took 3h; adding the HTTP client took ~6h
+```
+
 ### 2.1 Establish the calibration basis
 
-Before estimating anything, find out what an hour means *for this team*.
+Before estimating anything, find out what an hour means *here*.
 
 - If there is issue-tracker history (Jira, Linear, GitHub Issues), use it. Query resolved issues
   carrying **both** an original estimate and logged time — that pair set is the only thing worth
-  calibrating on. See [§5](#5-calibration--deriving-a-baseline-from-history) and the script in
-  [§7](#7-appendix--calibratepy).
+  calibrating on. See [§9](#9-calibration--deriving-a-baseline-from-history) and the script in
+  [§11](#11-appendix--calibratepy).
+- **No tracker? Use git.** Commit history is an underrated calibration source and usually more honest
+  than logged time, because nobody backfills it. Session structure (treating a >4h gap as a
+  boundary), commit size, and the share of commits that correct recent work all fall straight out of
+  `git log`. See [§9.9](#99-calibrating-from-git-history).
 - If there is a written estimation baseline already, follow it and say so. Its scale and rules take
   precedence over the defaults here.
 - If there is nothing, use the defaults below and **say plainly that they are uncalibrated starting
@@ -102,6 +172,12 @@ Signals that force **High** regardless of how small it feels: nobody on the team
 it depends on a system whose source you cannot read; it involves new hardware, a new build target, or
 a new vendor SDK; the acceptance criteria can't be written yet.
 
+**Then adjust for the feedback loop.** Familiarity says how likely you are to get it right; the
+feedback loop says how long it takes to find out you didn't. Work you know well but can only verify
+by flashing a board or waiting on CI still needs a second pass roughly half the time — so treat a
+very slow loop as one step up in class, or apply the ~1.5× from [§4.1](#41-build-system-and-ci-work-behaves-like-its-own-archetype)
+on top. The two are independent, and only one of them is visible in the requirements.
+
 ### 2.5 Estimate, multiply, round
 
 1. Estimate the **known** version of the task at face value, using the anchors below.
@@ -124,6 +200,10 @@ estimates stop being estimates and become wishes.
 
 Most tickets should land at 1h or 2h. If most of yours are 4h and 6h, the decomposition is too coarse
 and the plan is hiding risk.
+
+**The ceiling is really your session length, not 6h.** A ticket longer than one sitting cannot be
+finished in one sitting, and pays re-entry cost every time it resumes. If your sessions are ~1h, cap
+there instead — see [§3.1](#31-the-unit-is-a-sitting).
 
 ### 2.6 Apply the uncertainty cap — the core safeguard
 
@@ -220,7 +300,7 @@ Present this so the sum and the budget are both visible:
 | **Total** | | **11h** |
 
 Then state the budgeted figure and why. If you used a historical overrun ratio, say whether it is a
-floor or a central estimate — see [§5.3](#53-the-backfill-trap), since most tracker history
+floor or a central estimate — see [§9.3](#93-the-backfill-trap), since most tracker history
 understates overrun for structural reasons.
 
 Call out the **milestone worth landing alone** — usually the block that retires the most risk.
@@ -237,7 +317,193 @@ Call out the **milestone worth landing alone** — usually the block that retire
 
 ---
 
-## 3. Domain notes
+## 3. Cadence — size by session, not by hour
+
+An estimate in hours assumes the hours are contiguous. Often they aren't, and the difference is not a
+rounding error — it changes how the work should be cut.
+
+### 3.1 The unit is a sitting
+
+Work stops when a session ends, not when an hour elapses. So size tickets to **one sitting**, and
+find out what a sitting actually is before assuming.
+
+Measured session lengths for one developer across four repos (a gap of >4h between commits treated as
+a session boundary) give a sense of the spread — and of why a single number won't do:
+
+| Context | Median session | Median commits |
+|---|---|---|
+| Work, team repo | 1.5 h | 4 |
+| Work, solo repo | 1.8 h | 6 |
+| Personal project, active sprint | 2.1 h | 6 |
+| Study, evenings *(self-reported)* | ~1 h | — |
+
+Same person, ~1.5–2h across working contexts, but study evenings are half that. **Take the session
+length from the intake and cap tickets there** rather than defaulting to 2h everywhere. A 2h ticket
+against a 1h session is a ticket that is never finished in one go, which costs re-entry every time.
+
+### 3.2 Re-entry cost is real and appears in no estimate
+
+A ticket spanning three sessions costs more than its hours, because each resume pays for
+re-orientation: where was I, what was I about to do, why did I leave it like this.
+
+Budget roughly **15–20 minutes per resume**. The practical consequence is counterintuitive: when work
+is genuinely contiguous, **prefer one 2h ticket over two 1h tickets** — the opposite of the usual
+"split smaller" instinct. Splitting helps verifiability; it hurts continuity. Split at seams where
+the work naturally pauses, not at arbitrary hour boundaries.
+
+For stepping cadences, every ticket carries a **parking note**: what's done, what's next, where the
+thread was dropped. Written at the *end* of the session, while it's still in your head — never
+reconstructed at the start of the next one.
+
+### 3.3 The marathon is real capacity, and a planning trap
+
+Long sessions happen. In the data above, about **one in four personal-project sessions ran 5+ hours**,
+and the extreme was a verified **17.5-hour continuous session producing 53 commits** — one Sunday,
+start to finish, debugging a CI matrix.
+
+That capacity is real, and it is what lets a stalled project catch up. It is also **not
+schedulable**. Nobody can plan a 17-hour Sunday; they happen when conditions align. Size tickets to
+the *median* sitting. Treat marathons as recovery, never as the plan — because the moment you size to
+your best day, every ordinary week under-delivers and the plan reads as failure.
+
+### 3.4 Three cadence modes
+
+| Mode | Rule |
+|---|---|
+| **Continuous** — daily, focused, sustained | Standard hours-based decomposition. The method as written. |
+| **Stepping** — evenings, weekends, 1–3 sessions/week | Size to one sitting. Every ticket carries a parking note. Expect the plan to outlive your memory of it. |
+| **Dormant / resumed** — gaps of weeks | **Re-cut the remaining tickets before doing any of them.** Budget one session for re-entry as an explicit ticket, not as overhead absorbed elsewhere. |
+
+Capacity assumptions must follow the mode. In the same measured set, weekend work was **6.7% of
+commits on a team repo but 41–48% on personal projects** — solo work colonises weekends, team work
+does not. Applying one capacity figure to both will be wrong in both directions.
+
+### 3.5 Don't over-plan the first burst
+
+Common advice is to front-load the important work because momentum fades. For intermittent projects
+that is often backwards.
+
+One measured personal project ran: initial burst → **7-week stall** → revival in which **82% of the
+entire project landed in 20 days** → dormancy. Peak effort came roughly **12 weeks after inception**;
+only 14% of the work happened in the first month.
+
+If that shape is yours, the first burst is mostly scoping and setup, and the real work arrives on
+revival — by which time a detailed up-front ticket list is stale and gets thrown away. Plan the first
+burst lightly. Invest the planning effort at the revival, when you actually know what you're building
+and the plan has a short distance to travel before being executed.
+
+---
+
+## 4. Work archetypes
+
+Different kinds of work fail differently, so they should be cut differently. Pick the archetype in the
+intake; each carries its own split point, spike policy, and shape of "done".
+
+| Archetype | Split at | Spike? | Done-when shape |
+|---|---|---|---|
+| **Build-out** — spec clear, pattern known | feature seams | no | artifact exists, named test passes |
+| **Debug** — unknown cause | **reproduce / fix** | yes — repro spike | fix ticket is `?` until a repro exists |
+| **Exploration** — new framework or SDK | survey → thin slice → build | yes — survey spike | provisional; expect a re-cut |
+| **Deep study** | concept boundaries | yes — survey spike | **demonstrable artifact**, never pages read |
+| **Refactor / cleanup** | behaviour-preserving slices | no | **behaviour-neutral diff**; tests unchanged and passing |
+| **Port / migration** | target-capability seams | yes — first-build spike | parity against the old target |
+| **Code reading / review** | subsystem boundaries | no | **written output** — a map, a summary, a questions list |
+
+Four deserve elaboration because their failure modes are specific.
+
+**Debug.** The estimate people write is for the *fix*, but all the risk is in the *diagnosis*. Split
+there. Only reproduction can be estimated up front; the fix stays `?` until a repro exists. A bug
+*with* a reliable repro is a different animal entirely — Medium at worst, often 1h — because the
+unknown has already been retired.
+
+**Exploration.** Everything downstream of "learn what this framework does" is guesswork, so mark it
+provisional and expect one re-cut. The failure here is writing eight confident tickets against an API
+you have not read.
+
+**Refactor.** No visible outcome, so the risks are scope creep and "while I'm here". Done-when must be
+a **behaviour-neutral diff** — same tests, unchanged, still passing. The ticket must also name what is
+explicitly **out** of scope, because a refactor without a stated boundary expands to fill whatever
+time exists.
+
+**Code reading.** Effort is comprehension, which is invisible and therefore un-closable. Force a
+written artifact — a subsystem map, a summary, a list of questions — or the ticket can never
+legitimately be marked done. Cap these *harder* than coding tickets: comprehension degrades with
+fatigue faster than typing does.
+
+### 4.1 Build-system and CI work behaves like its own archetype
+
+Whatever archetype it nominally sits inside, work on build systems, packaging, and CI pipelines has a
+distinct signature: a slow external feedback loop (push, wait, read the log, guess again), small
+commits, and heavy trial-and-error. In the measured repos it was the **dominant activity on personal
+projects** and carried a rework rate of 42%, against 14% for ordinary library work.
+
+Budget it at **~1.5×** and prefer a spike whenever the toolchain is unfamiliar. It is the most
+reliably under-estimated category in the set, and it under-estimates precisely because the *code
+change* is usually trivial — it's the loop around it that costs.
+
+---
+
+## 5. Deep study — active learning and motivation
+
+Study plans fail in ways code plans don't, so they need their own rules.
+
+**"Read chapter 4" is the study equivalent of the absorber ticket.** It has no verifiable outcome and
+can be performed completely without learning anything. Every study ticket must require *production*:
+implement it, derive it, explain it aloud, write it from memory. If the ticket can be closed by moving
+your eyes across a page, it will be.
+
+**Budget for the scribbling.** Writing things down as you go is slower per page than reading — and
+that slowness *is the mechanism*. An estimate built on reading speed will be wrong by 2–3×, and the
+usual response (skip the writing to stay on schedule) removes the only part that was working.
+
+**Motivation is a depletable resource and belongs in the plan.** Sequence so that a hard ticket is
+followed by one producing a visible win. Three consecutive High-uncertainty study tickets is a plan
+that gets abandoned regardless of whether the hours were right — and abandonment, not overrun, is how
+study plans actually fail. When you have to regain momentum, the next ticket should be something you
+can finish.
+
+**Cap study tickets at the study session, which is usually smaller than a work session.** For ~1h
+evenings, cap at 1h. Attention degrades faster than availability does: a 4h study block is typically
+two good hours wearing a costume.
+
+**"Done when" examples** that actually work:
+
+- Implement X from scratch, no references, in under N minutes.
+- Explain the trade-off between A and B out loud, unprompted, without notes.
+- Solve K unseen problems of type Y unaided.
+- Write a one-page summary from memory, then diff it against the source.
+
+---
+
+## 6. Fluid re-planning — when to re-cut
+
+Study and exploration plans change as understanding changes. Without a rule, re-planning becomes the
+work — it feels productive, produces nothing, and is infinitely available.
+
+**Re-cut when:**
+
+- a spike's findings invalidate a downstream assumption
+- you discover a prerequisite you didn't know existed
+- two consecutive tickets overran by more than 2×
+- you are resuming after weeks away (see [§3.4](#34-three-cadence-modes) — this one is mandatory)
+
+**Do not re-cut when:**
+
+- a single ticket was harder than expected
+- you found something more interesting
+- you feel behind
+
+Those three are ordinary. Re-planning in response to them is avoidance wearing a productivity
+costume, and the tell is that the new plan looks a lot like the old one with the hard part moved
+later.
+
+**Cap it:** at most one re-cut per burst, timeboxed to 30 minutes. If a plan needs re-cutting more
+often than that, the archetype was wrong — it is probably exploration, and should have been marked
+provisional from the start rather than re-planned repeatedly.
+
+---
+
+## 7. Domain notes
 
 **Firmware / embedded.** Hardware availability is a scheduling dependency, not an estimate — a shared
 bench, rig, or board goes in prerequisites, never inside a ticket's hours. Board bring-up, new
@@ -249,7 +515,10 @@ test" is not a 1h ticket. Where the work is a port to a new target, the first bu
 canonical spike.
 
 **C++ / desktop.** Build-system and dependency work (CMake, vcpkg, Conan, packaging, code signing) is
-high-novelty far more often than it feels and is the most reliably underestimated category.
+high-novelty far more often than it feels and is the most reliably underestimated category — in the
+commit histories behind this document it carried a ~42% rework rate against ~14% for ordinary library
+work in the same repos. It under-estimates precisely because the code change is usually trivial; the
+push-wait-read-the-log loop around it is what costs. See [§4.1](#41-build-system-and-ci-work-behaves-like-its-own-archetype).
 Cross-platform means multiplying, not sharing — do not assume one platform's ticket covers the
 others; give each its own, because the failures are platform-specific. Separate UI-framework wiring
 from business logic; they have different risk profiles and different verifiability. Linker and ABI
@@ -264,7 +533,7 @@ yet see the shape of.
 
 ---
 
-## 4. Output format
+## 8. Output format
 
 Deliver a single document:
 
@@ -284,13 +553,13 @@ under rather than guessing.
 
 ---
 
-## 5. Calibration — deriving a baseline from history
+## 9. Calibration — deriving a baseline from history
 
 Naive analysis of estimate-vs-actual data is not merely imprecise, it is usually **misleading in a
 specific and predictable direction**. The main job of this section is to stop you reporting a number
 that is confidently wrong.
 
-### 5.1 What to pull
+### 9.1 What to pull
 
 Query resolved/closed issues from the last 3–12 months. Longer windows drift as the team and codebase
 change; shorter ones give too few paired samples.
@@ -311,7 +580,7 @@ this paired set to be much smaller than the total — often a quarter or less. R
 prominently, because it is the real sample size; a baseline built on 20 pairs deserves far less
 confidence than one built on 200.
 
-### 5.2 What to compute
+### 9.2 What to compute
 
 **Aggregate ratio** — the headline number:
 
@@ -327,7 +596,7 @@ Also compute: paired sample count; the distribution of estimate values actually 
 within ±10% of estimate; per-size-bucket ratios; per-work-class ratios; and the worst five overruns
 by ratio and by absolute hours.
 
-### 5.3 The backfill trap
+### 9.3 The backfill trap
 
 **This is the most important part of the whole document.**
 
@@ -360,7 +629,7 @@ record rather than reconciling afterwards. Even rough half-hour honesty beats ex
 Two sprints of that produce a variance history worth far more than any further analysis of the
 existing data.
 
-### 5.4 Segmenting by work class
+### 9.4 Segmenting by work class
 
 Size buckets usually show a **flat** ratio — size alone does not predict overrun. That is a genuinely
 useful negative result: it means padding by size is wasted effort.
@@ -378,7 +647,7 @@ uncertainty-based rather than size-based padding — which is the premise of thi
 is worth checking rather than assuming. If the segments come out equal, say so and fall back to the
 default multipliers. Do not manufacture a finding the data does not support.
 
-### 5.5 Reading the tail
+### 9.5 Reading the tail
 
 Go and read the worst three to five overruns. For each, ask:
 
@@ -393,7 +662,7 @@ The distinction matters because the three have different fixes: cap and spike, s
 prerequisite. Reporting "we underestimate by 30%" when the real cause is unnamed dependencies leads
 the team to pad uniformly and change nothing.
 
-### 5.6 Deriving the scale and anchors
+### 9.6 Deriving the scale and anchors
 
 **Scale.** Use the estimate values the team actually uses, not an idealised set. If they only ever use
 1, 2, 4, and 8, that is the scale; imposing Fibonacci on them will be ignored. Adopt their scale and
@@ -408,7 +677,7 @@ descriptive rather than imposed — say so, it makes the rule much easier to ado
 compliant subset has a better ratio than the non-compliant one; it usually does, which is the
 argument for the cap.
 
-### 5.7 When there is no history
+### 9.7 When there is no history
 
 Say so explicitly rather than quietly using defaults as though they were measured. Then use:
 
@@ -416,10 +685,19 @@ Say so explicitly rather than quietly using defaults as though they were measure
 - Multipliers 1.15× Low, 1.5× Medium, 2.0× High.
 - Sprint budget 1.3–1.5× the ticket sum for mid-to-high uncertainty plans.
 
-These are conservative starting points chosen to fail safe, not measurements. The first sprint run
-against them is itself the beginning of a baseline.
+**Be honest about where these come from.** They are not universal constants and they are not derived
+from broad research — they originate from one team's tracker history on web-application work, in data
+that showed clear signs of worklog backfill. They are offered because they fail safe, not because
+they are measured truth, and they are least likely to transfer to work whose shape differs most from
+their origin.
 
-### 5.8 Reporting the baseline
+The session-length and rework figures quoted elsewhere in this document are on firmer ground: they
+come from direct commit-history analysis, where nothing is backfilled. But they describe **one
+developer**. Treat every number here as a placeholder to be replaced — the first sprint you run
+against these defaults is itself the beginning of a real baseline, and [§9.9](#99-calibrating-from-git-history)
+gets you one in an afternoon without needing a tracker at all.
+
+### 9.8 Reporting the baseline
 
 Include, in this order: sample (window, total, paired count); **data quality** (±10% share and an
 explicit backfill verdict — put this *before* the ratio so the caveat is read first); aggregate ratio
@@ -429,15 +707,59 @@ rules; and what would improve the baseline.
 Keep caveats attached to the numbers rather than in a footnote. A ratio quoted without its
 data-quality context will be treated as fact and propagated into plans that cannot support it.
 
+### 9.9 Calibrating from git history
+
+If there is no tracker — solo projects, personal work, a team that doesn't log time — commit history
+is the better source anyway. **Nobody backfills git.** Timestamps are a byproduct of working rather
+than a bookkeeping artifact, which makes them immune to the trap in [§9.3](#93-the-backfill-trap).
+
+It won't give you estimate-vs-actual ratios, because there were no estimates. It gives you something
+arguably more useful: the **shape of how you actually work**.
+
+**Session length — your real ticket cap.** Treat a gap of >4 hours between consecutive commits as a
+session boundary, then take the median session duration (first to last commit within a session). That
+is your natural sitting, and it is what tickets should be sized to. Also record the *distribution* —
+a median of 2h with a quarter of sessions running 5+ hours is a very different working life from a
+tight cluster at 2h, and only the first has a marathon-shaped tail worth planning around.
+
+**Rework rate — your feedback-loop multiplier.** Count commits whose subject suggests correcting
+recent work (`fix`, `revert`, `again`, `actually`, `cleanup`) *and* which touch a file changed in the
+previous 24 hours. That share, per repo, is a direct read on how often work needs a second pass. If it
+differs sharply between repos — and it will — you have an empirical per-domain multiplier rather than
+a guessed one.
+
+**Continuity — whether your plans must survive dormancy.** Distribution of gaps *between* sessions.
+Count gaps over 7 and over 30 days, and look at the largest few. Frequent multi-week holes mean the
+dormant/resumed rules in [§3.4](#34-three-cadence-modes) are your default mode, not an edge case.
+
+**Capacity — how much of the calendar you actually use.** Distinct active days over calendar span.
+"One day in four" is a very different planning input from "most days", and people consistently
+overestimate this about themselves.
+
+**Weekend and hour distribution.** Tells you which hours are genuinely available. Expect it to differ
+between solo and team projects; apply each project's own figure rather than an average.
+
+```bash
+# session boundaries, rework signal, and gaps all come from one log
+git log --author="<you>" --date=iso --pretty=format:"%H|%ad|%s" --no-merges
+git log --numstat --pretty=format:"---%H|%ad" --date=iso --no-merges   # commit sizes
+```
+
+**Caveats.** Commits are a proxy for work, not a measure of it — thinking, reading and debugging
+leave no trace, so a 2h session with one commit may have been the hardest 2h of the week. Commit
+granularity is a personal habit, so counts don't compare across people. And a repo with under ~15
+sessions won't support conclusions about rhythm; where several repos agree, trust it, and where they
+disagree, prefer the one with the longer history rather than averaging them.
+
 ---
 
-## 6. Worked examples
+## 10. Worked examples
 
-Four decompositions, each contrasting a plausible-but-flawed breakdown with a corrected one. The
+Five decompositions, each contrasting a plausible-but-flawed breakdown with a corrected one. The
 flaws are the instructive part — every "before" here is the kind of plan that gets approved without
 objection and then overruns.
 
-### 6.1 Firmware — porting to a new build target
+### 10.1 Firmware — porting to a new build target
 
 **Request:** *"We want the firmware to build for a host-simulated target so we can test without the
 hardware rig. How long?"*
@@ -487,7 +809,7 @@ If the host toolchain doesn't exist yet, that is its own item, owned elsewhere, 
 Burying it inside T1 is how a sprint quietly loses two days. Likewise the bench/rig is a shared
 resource and appears in prerequisites, never inside hours.
 
-### 6.2 C++ desktop — a cross-platform feature
+### 10.2 C++ desktop — a cross-platform feature
 
 **Request:** *"Add file drag-and-drop to the editor. Should work on Windows, macOS and Linux."*
 
@@ -526,7 +848,7 @@ signing and entitlement work is the most reliably forgotten category in desktop 
 because failures surface only in a signed build on a clean machine. T5 is the unhappy path the
 original plan folded invisibly into T1.
 
-### 6.3 Bug fix — an intermittent failure
+### 10.3 Bug fix — an intermittent failure
 
 **Request:** *"Users occasionally see corrupted output. Happens maybe once a day. Fix it."*
 
@@ -558,7 +880,7 @@ fails against the pre-fix commit, otherwise it proves nothing.
 Bugs with a **reliable repro** are different: Medium at worst, often 1h. The uncertainty in bug work
 lives almost entirely in reproduction.
 
-### 6.4 Interview prep — an unfamiliar topic
+### 10.4 Interview prep — an unfamiliar topic
 
 **Request:** *"I need to get good at concurrency for interviews. Make me a plan."*
 
@@ -596,14 +918,66 @@ find a gap (T6).
 T3 is High even at the same 2h: lock-free work is where confident study plans quietly fail. Here
 uncertainty predicts *needing more sessions*, not a longer session.
 
-### 6.5 Patterns visible across all four
+### 10.5 Personal project resumed after a month
 
-1. **The first ticket is a spike whenever the work is genuinely new.** In all four, the single
-   largest risk was "we don't yet know what this involves", and in all four the spike costs 2h to
-   retire it.
+**Request:** *"I started a build-template project in April, stalled, and I want to pick it back up.
+There's a half-finished ticket list from back then."*
+
+**Before — reusing the old plan:**
+
+```
+(from April)
+T4  Finish CI matrix for 3 compilers      4h
+T5  Add sanitizer presets                 2h
+T6  Write the README                      2h
+```
+
+The plan isn't wrong, it's **stale**, and that's a different problem. After a month away you no
+longer remember why T4 was blocked, what you'd already tried, or whether T5 still makes sense given
+what you learned before stopping. Starting T4 cold means re-deriving all of it — and that
+re-derivation appears nowhere in the 4h.
+
+**After:**
+
+```
+T0  [PREP]  Re-entry: read the diff, rebuild, write a state note   1h  Low
+T1  [PREP]  Re-cut T4-T6 against what T0 found                  0.5h  Low
+--- everything below is provisional until T0/T1 ---
+T2  [CI]    Compiler matrix — clang only (one sitting)            2h  Medium
+T3  [CI]    Compiler matrix — gcc + msvc                          2h  Medium
+T4  [BUILD] Sanitizer presets                                     2h  Medium
+T5  [DOCS]  README                                                2h  Low
+```
+
+**What changed:**
+
+- **T0 exists.** Re-entry is real work and it is now visible instead of being silently absorbed into
+  the first "real" ticket. Its deliverable is a written state note: what works, what's half-done,
+  what the last session was in the middle of. One session, explicitly budgeted.
+- **T1 re-cuts before executing.** Per [§6](#6-fluid-re-planning--when-to-re-cut), resuming after
+  weeks is one of the four situations where re-cutting is mandatory rather than avoidance. Capped at
+  30 minutes so it doesn't become the work.
+- **The 4h CI ticket split into two 2h tickets at a natural seam** (one compiler, then the rest). Not
+  because 4h is too big in the abstract, but because it doesn't fit one sitting — and a ticket that
+  spans sessions pays re-entry cost every time.
+- **Every downstream ticket carries a parking note** written at the end of its session, while the
+  context is still loaded. The note is what makes the *next* gap survivable.
+
+The wider lesson from this shape: if your projects go dormant and revive — and the commit histories
+of most personal projects say they do — then **the up-front plan is not the valuable artifact. The
+re-cut is.** Plan the first burst lightly and invest the planning effort at revival, when you know
+what you're building and the plan has a short distance to travel before being executed.
+
+### 10.6 Patterns visible across all five
+
+1. **The first ticket buys information whenever the work is genuinely new.** In every example the
+   single largest risk was "we don't yet know what this involves" — and in every one, 1–2h of
+   deliberate investigation retires it. Usually that's a spike; on a resumed project it's the
+   re-entry ticket, which is the same move aimed at your own forgotten context.
 2. **The oversized ticket is always hiding a seam.** "Get it building", "implement drag and drop",
-   "fix the bug", "study concurrency" — each split naturally once the seam was found. A ticket that
-   resists splitting usually has unknown scope, which means it wants a spike, not a bigger number.
+   "fix the bug", "study concurrency", "finish the CI matrix" — each split naturally once the seam
+   was found. A ticket that resists splitting usually has unknown scope, which means it wants a
+   spike, not a bigger number.
 3. **The forgotten ticket is usually the unhappy path or the packaging.** Validation, error handling,
    entitlements, regression tests, migration. Real work, and their absence is the quiet half of most
    overruns.
@@ -612,10 +986,13 @@ uncertainty predicts *needing more sessions*, not a longer session.
 5. **Honest plans are often not smaller.** The corrected versions here mostly cost the same or more.
    The gain is not a lower number — it is that the number stops being fiction, and that when it is
    wrong you find out in hours rather than weeks.
+6. **Work that isn't typing is still work.** Reproducing a bug, surveying a topic, reading a
+   framework's docs, reloading your own context after a month. None of it produces a diff, all of it
+   takes hours, and a plan that doesn't name it hasn't removed the cost — only the visibility.
 
 ---
 
-## 7. Appendix — `calibrate.py`
+## 11. Appendix — `calibrate.py`
 
 Derives a baseline from a CSV export of resolved issues. Standard library only; auto-detects common
 Jira / Linear / GitHub column names.
@@ -626,7 +1003,7 @@ python calibrate.py issues.csv --units seconds     # Jira API exports
 python calibrate.py issues.csv --estimate-col "Original Estimate" --actual-col "Time Spent"
 ```
 
-Its most useful output is the backfill check described in [§5.3](#53-the-backfill-trap) — it says
+Its most useful output is the backfill check described in [§9.3](#93-the-backfill-trap) — it says
 explicitly when the history cannot support the number you were about to quote.
 
 ```python
