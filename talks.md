@@ -29,6 +29,7 @@
 - [Negosiasi & Komunikasi](https://docs.google.com/presentation/d/1vyMIsAfk6sETPyCz9eSeEs19tdeqxR3jayXMmQvdG88/edit#slide=id.g2f86919d447_0_978)
 - [EngLead Coaching](https://docs.google.com/presentation/d/12GxSIWUOaMD6Ok7K1X2EBUYaF9mxadNVU0SFuX5xNCg/edit#slide=id.g11f294ce39e_0_150)
 - [Be an Inspiring Student Leader in the Digital Era](https://drive.google.com/file/d/1NPmRwGk3wHQcw4y015lgXZOYmrO70U3b/view?usp=sharing)
+- [Talks - Leadership](https://docs.google.com/document/d/1_TKSVFDFe4JTfFJ4PsDSIADQ_IuCJtjWZuZtlIUQrrU/edit?usp=sharing)
 
 ## Activism
 - [Imaji Mula - dari KaryaBerdaya dan Baracita, lalu berkarya](https://docs.google.com/presentation/d/1SXOYUvm9q_XDsyQr6djl-XAuOstAmD0RXvE4cSeww8M/edit#slide=id.g2aa9829361f_0_52)

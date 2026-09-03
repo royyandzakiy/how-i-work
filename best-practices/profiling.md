@@ -34,3 +34,7 @@ heaptrack_gui heaptrack.yourapp.12345.zst
 # Massif
 massif-visualizer massif.out.12345
 ```
+
+sourcetrail: help understand code structure
+
+https://github.com/CoatiSoftware/Sourcetrail/releases/tag/2021.4.19
